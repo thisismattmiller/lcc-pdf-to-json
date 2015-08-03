@@ -143,9 +143,7 @@ class LCC(object):
 		subdivided_pattern = re.compile("^[A-Z]+[0-9]+\.[A-Z]+")
 		subdivided_pattern2 = re.compile("^[A-Z]+[0-9]+\-[0-9]\.[A-Z]+")
 
-		abbrivated_decimal_pattern = re.compile("(^[A-Z]+)([0-9]+)\.([0-9]+)\-([0-9])")
 
-		abbrivated_decimal_pattern2 = re.compile("(^[A-Z]+)([0-9]+)(\.[0-9]+)\-(\.[0-9]+)")
 		hyphen_aplha_pattern = re.compile("^([A-Z]+[0-9]+\.[0-9]+)\.[A-Z]+\-[A-Z]+")
 
 		heading_pattern = re.compile("^[A-Z]+\-[A-Z]+")
@@ -229,29 +227,6 @@ class LCC(object):
 						self.problematicClassmarks.append(text + ' -> ' + this_code)
 						
 
-					# elif (abbrivated_decimal_pattern.match(this_code)):
-
-					# 	m = re.search(abbrivated_decimal_pattern, this_code)
-
-						
-
-					# 	#D274.5-6					
-					# 	this_code = m.group(1) + m.group(2) + "." + m.group(3) + '-' + m.group(2) + '.' + m.group(4)
-					# 	#D274.5-D274.6
-					# 	self.problematicClassmarks.append(text + ' -> ' + this_code)
-
-					# elif (abbrivated_decimal_pattern2.match(this_code)):
-
-
-					# 	m = re.search(abbrivated_decimal_pattern2, this_code)
-
-					# 	#KBM524.32-.34				
-					# 	this_code = m.group(1) + m.group(2) + m.group(3) + '-' + m.group(2) + m.group(4)
-					# 	#KBM524.32-524.34
-					# 	self.problematicClassmarks.append(text + ' -> ' + this_code)
-
-
-
 
 					elif (hyphen_aplha_pattern.match(this_code)):
 
@@ -306,6 +281,7 @@ if __name__ == "__main__":
 
 	if mode == "single":
 		aLCC = LCC(sys.argv[1])
+		print json.dumps(aLCC.results,sort_keys=True)
 
 	if mode == "all":
 
@@ -336,16 +312,3 @@ if __name__ == "__main__":
 
 
 	
-	# if mode == "batch":
-		
-	# 	sys.argv[1]
-		
-	# 	for root, _, files in os.walk('/a/complete/path/'):
-			
-	# 		for f in files:
-				
-	# 			if f.find(sys.argv[1]) != -1:
-					
-	# 				print f
-	# 				aCit = cit('/a/complete/path/' + f)
-
