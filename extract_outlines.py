@@ -149,6 +149,8 @@ class LCC(object):
 		heading_pattern = re.compile("^[A-Z]+\-[A-Z]+")
 		heading_pattern2 = re.compile("^[A-Z]+[0-9]+\-[A-Z]+[0-9]+")
 
+		only_three_prefix = re.compile("^[A-Z]{3}")
+		only_two_prefix = re.compile("^[A-Z]{2}")
 
 
 		for lt_obj in layout:
@@ -177,10 +179,13 @@ class LCC(object):
 			text = code.get_text().strip().replace('(','').replace(')','')
 
 			text = text.replace('PN1992.93-19 92.95','PN1992.93-1992.95')
+
 			if text == 'D545.9':
 				text = 'DT545.9'
 			if text == 'D274.5-6':
 				text = 'D274.5-274.6'
+			if text == 'QC 1-75':
+				text = 'QC1-75'
 
 
 
@@ -200,23 +205,23 @@ class LCC(object):
 			if len(text) > 0:
 
 
+				this_code = text
+				this_desc = None
+
+				#now look through all the descriptions
+
+				for description in descriptions:
+					if  code.bbox[1] == description.bbox[1]:
+						if description.get_text().strip() != '':
+							this_desc = description.get_text().strip()
+
+				#did we get it?
+				if this_desc == None:
+					this_desc = "ERROR, could not find"
+
+
+
 				if (basic_code_pattern.match(text)):
-
-
-
-					this_code = text
-					this_desc = None
-
-					#now look through all the descriptions
-
-					for description in descriptions:
-						if  code.bbox[1] == description.bbox[1]:
-							if description.get_text().strip() != '':
-								this_desc = description.get_text().strip()
-
-					#did we get it?
-					if this_desc == None:
-						this_desc = "ERROR, could not find"
 
 					#print this_code, this_desc
 
@@ -272,6 +277,41 @@ class LCC(object):
 					#print prefix, numbers, number_one, number_two
 
 					self.all_classifications[this_code] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : prefix, "start" : number_one, "stop" : number_two, "subject" : this_desc }
+
+				else:
+
+					#there are some edge cases here
+
+					if only_three_prefix.match(text) and len(text) == 3:
+
+
+						if text[0] == 'K':
+
+							if (this_desc.find('law of') == -1):
+								this_desc = "Law of " + this_desc
+
+
+						self.all_classifications[this_code] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : text, "start" : 0, "stop" : 10000, "subject" : this_desc }
+
+
+
+					elif only_two_prefix.match(text) and len(text) == 2:
+
+
+						self.all_classifications[this_code] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : text, "start" : 0, "stop" : 10000, "subject" : this_desc }
+
+					elif text == 'KES, KEY':
+
+						self.all_classifications['KES'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : "KES", "start" : 0, "stop" : 10000, "subject" : "Law of Saskatchewan" }
+						self.all_classifications['KEY'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : "KEY", "start" : 0, "stop" : 10000, "subject" : "Law of Yukon" }
+
+
+					
+					else:
+
+
+						self.problematicClassmarks.append(text + ' -> ' + 'Does not look like a LCC?')
+
 
 
 

@@ -159,6 +159,16 @@
             "subject": "Museums.  Collectors and collecting"
         }
     ],
+    "AN": [
+        {
+            "id": "AN",
+            "parents": [],
+            "prefix": "AN",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Newspapers"
+        }
+    ],
     "AP": [
         {
             "id": "AP270-271",
@@ -43700,6 +43710,16 @@
             "subject": "Law reports and related materials"
         }
     ],
+    "KEP": [
+        {
+            "id": "KEP",
+            "parents": [],
+            "prefix": "KEP",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Law of Prince Edward Island"
+        }
+    ],
     "KEQ": [
         {
             "id": "KEQ448",
@@ -43733,6 +43753,17 @@
             "start": 544.0,
             "stop": 545.0,
             "subject": "Manufacturing industries"
+        },
+        {
+            "id": "KEQ842",
+            "parents": [
+                "KEQ1-1199.5",
+                "KEQ798-988"
+            ],
+            "prefix": "KEQ",
+            "start": 842.0,
+            "stop": 842.0,
+            "subject": "Police and power of the police"
         },
         {
             "id": "KEQ208-209",
@@ -44158,15 +44189,14 @@
             "subject": "Public finance"
         },
         {
-            "id": "KEQ842",
+            "id": "KEQ151-176",
             "parents": [
-                "KEQ1-1199.5",
-                "KEQ798-988"
+                "KEQ1-1199.5"
             ],
             "prefix": "KEQ",
-            "start": 842.0,
-            "stop": 842.0,
-            "subject": "Police and power of the police"
+            "start": 151.0,
+            "stop": 176.0,
+            "subject": "The legal profession"
         },
         {
             "id": "KEQ441",
@@ -44372,16 +44402,6 @@
             "subject": "Control of individuals"
         },
         {
-            "id": "KEQ151-176",
-            "parents": [
-                "KEQ1-1199.5"
-            ],
-            "prefix": "KEQ",
-            "start": 151.0,
-            "stop": 176.0,
-            "subject": "The legal profession"
-        },
-        {
             "id": "KEQ1",
             "parents": [
                 "KEQ1-1199.5"
@@ -44481,7 +44501,7 @@
             "id": "KEQ159-166",
             "parents": [
                 "KEQ1-1199.5",
-                "KEQ151-166"
+                "KEQ151-176"
             ],
             "prefix": "KEQ",
             "start": 159.0,
@@ -44584,7 +44604,7 @@
             "id": "KEQ153-157.5",
             "parents": [
                 "KEQ1-1199.5",
-                "KEQ151-166"
+                "KEQ151-176"
             ],
             "prefix": "KEQ",
             "start": 153.0,
@@ -44635,6 +44655,36 @@
             "start": 237.0,
             "stop": 258.0,
             "subject": "Domestic relations.  Family law"
+        }
+    ],
+    "KES": [
+        {
+            "id": "KES",
+            "parents": [],
+            "prefix": "KES",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Saskatchewan"
+        }
+    ],
+    "KEY": [
+        {
+            "id": "KEY",
+            "parents": [],
+            "prefix": "KEY",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Yukon"
+        }
+    ],
+    "KEZ": [
+        {
+            "id": "KEZ",
+            "parents": [],
+            "prefix": "KEZ",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Law of cities, towns, etc."
         }
     ],
     "KF": [
@@ -47543,6 +47593,26 @@
             "subject": "Jurisprudence and philosophy of American law"
         }
     ],
+    "KFX": [
+        {
+            "id": "KFX",
+            "parents": [],
+            "prefix": "KFX",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Laws of the cities"
+        }
+    ],
+    "KFZ": [
+        {
+            "id": "KFZ",
+            "parents": [],
+            "prefix": "KFZ",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Laws of the territories.  Laws of the Confederate States of"
+        }
+    ],
     "KG": [
         {
             "id": "KG1-999",
@@ -48139,6 +48209,81 @@
     ],
     "KJ": [
         {
+            "id": "KJ1233-1820",
+            "parents": [
+                "KJ2-2000",
+                "KJ1102-2000"
+            ],
+            "prefix": "KJ",
+            "start": 1233.0,
+            "stop": 1820.0,
+            "subject": "Sources"
+        },
+        {
+            "id": "KJ762-764",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040",
+                "KJ700-786"
+            ],
+            "prefix": "KJ",
+            "start": 762.0,
+            "stop": 764.0,
+            "subject": "Officials.    Ministries.    The court"
+        },
+        {
+            "id": "KJ945-972",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040"
+            ],
+            "prefix": "KJ",
+            "start": 945.0,
+            "stop": 972.0,
+            "subject": "Courts and procedure"
+        },
+        {
+            "id": "KJ2-148",
+            "parents": [
+                "KJ2-2000"
+            ],
+            "prefix": "KJ",
+            "start": 2.0,
+            "stop": 148.0,
+            "subject": "General"
+        },
+        {
+            "id": "KJ792-924",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040"
+            ],
+            "prefix": "KJ",
+            "start": 792.0,
+            "stop": 924.0,
+            "subject": "Private law"
+        },
+        {
+            "id": "KJ2-2000",
+            "parents": [],
+            "prefix": "KJ",
+            "start": 2.0,
+            "stop": 2000.0,
+            "subject": "History of Law (Europe)"
+        },
+        {
+            "id": "KJ707-720",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040",
+                "KJ700-786"
+            ],
+            "prefix": "KJ",
+            "start": 707.0,
+            "stop": 720.0,
+            "subject": "The estates"
+        },
+        {
             "id": "KJ690-694",
             "parents": [
                 "KJ2-2000",
@@ -48149,19 +48294,6 @@
             "start": 690.0,
             "stop": 694.0,
             "subject": "North Germanic.    Scandinavian"
-        },
-        {
-            "id": "KJ552-565",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040",
-                "KJ195-694",
-                "KJ200-687"
-            ],
-            "prefix": "KJ",
-            "start": 552.0,
-            "stop": 565.0,
-            "subject": "Frisians"
         },
         {
             "id": "KJ210-280",
@@ -48177,28 +48309,6 @@
             "subject": "Visigoths and Ostrogoths.    Leges Gothorum"
         },
         {
-            "id": "KJ195-694",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040"
-            ],
-            "prefix": "KJ",
-            "start": 195.0,
-            "stop": 694.0,
-            "subject": "Sources"
-        },
-        {
-            "id": "KJ1233-1820",
-            "parents": [
-                "KJ2-2000",
-                "KJ1102-2000"
-            ],
-            "prefix": "KJ",
-            "start": 1233.0,
-            "stop": 1820.0,
-            "subject": "Sources"
-        },
-        {
             "id": "KJ505-530",
             "parents": [
                 "KJ2-2000",
@@ -48212,39 +48322,66 @@
             "subject": "Saxons"
         },
         {
-            "id": "KJ769-774",
+            "id": "KJ470-499",
             "parents": [
                 "KJ2-2000",
                 "KJ160-1040",
-                "KJ700-786"
+                "KJ195-694",
+                "KJ200-687"
             ],
             "prefix": "KJ",
-            "start": 769.0,
-            "stop": 774.0,
-            "subject": "Military organization"
+            "start": 470.0,
+            "stop": 499.0,
+            "subject": "Bavarians"
         },
         {
-            "id": "KJ762-764",
+            "id": "KJ538-545",
             "parents": [
                 "KJ2-2000",
                 "KJ160-1040",
-                "KJ700-786"
+                "KJ195-694",
+                "KJ200-687"
             ],
             "prefix": "KJ",
-            "start": 762.0,
-            "stop": 764.0,
-            "subject": "Officials.    Ministries.    The court"
+            "start": 538.0,
+            "stop": 545.0,
+            "subject": "Angli and Warni"
         },
         {
-            "id": "KJ976-1040",
+            "id": "KJ160-1040",
             "parents": [
-                "KJ2-2000",
-                "KJ160-1040"
+                "KJ2-2000"
             ],
             "prefix": "KJ",
-            "start": 976.0,
+            "start": 160.0,
             "stop": 1040.0,
-            "subject": "Criminal law and procedure"
+            "subject": "Germanic law"
+        },
+        {
+            "id": "KJ575-580",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040",
+                "KJ195-694",
+                "KJ200-687"
+            ],
+            "prefix": "KJ",
+            "start": 575.0,
+            "stop": 580.0,
+            "subject": "Curic Rhaetia"
+        },
+        {
+            "id": "KJ552-565",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040",
+                "KJ195-694",
+                "KJ200-687"
+            ],
+            "prefix": "KJ",
+            "start": 552.0,
+            "stop": 565.0,
+            "subject": "Frisians"
         },
         {
             "id": "KJ438-463",
@@ -48260,6 +48397,18 @@
             "subject": "Alamanni"
         },
         {
+            "id": "KJ769-774",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040",
+                "KJ700-786"
+            ],
+            "prefix": "KJ",
+            "start": 769.0,
+            "stop": 774.0,
+            "subject": "Military organization"
+        },
+        {
             "id": "KJ2000",
             "parents": [
                 "KJ2-2000",
@@ -48271,7 +48420,7 @@
             "subject": "Special topics"
         },
         {
-            "id": "KJ470-499",
+            "id": "KJ399-425",
             "parents": [
                 "KJ2-2000",
                 "KJ160-1040",
@@ -48279,9 +48428,53 @@
                 "KJ200-687"
             ],
             "prefix": "KJ",
-            "start": 470.0,
-            "stop": 499.0,
-            "subject": "Bavarians"
+            "start": 399.0,
+            "stop": 425.0,
+            "subject": "Langobards.    Leges Langobardicae"
+        },
+        {
+            "id": "KJ1102-2000",
+            "parents": [
+                "KJ2-2000"
+            ],
+            "prefix": "KJ",
+            "start": 1102.0,
+            "stop": 2000.0,
+            "subject": "Slavic nations.    Slavic law"
+        },
+        {
+            "id": "KJ200-687",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040",
+                "KJ195-694"
+            ],
+            "prefix": "KJ",
+            "start": 200.0,
+            "stop": 687.0,
+            "subject": "East and West Germanic"
+        },
+        {
+            "id": "KJ195-694",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040"
+            ],
+            "prefix": "KJ",
+            "start": 195.0,
+            "stop": 694.0,
+            "subject": "Sources"
+        },
+        {
+            "id": "KJ976-1040",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040"
+            ],
+            "prefix": "KJ",
+            "start": 976.0,
+            "stop": 1040.0,
+            "subject": "Criminal law and procedure"
         },
         {
             "id": "KJ927-942",
@@ -48305,41 +48498,6 @@
             "start": 776.0,
             "stop": 786.0,
             "subject": "Finance.    Regalia"
-        },
-        {
-            "id": "KJ538-545",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040",
-                "KJ195-694",
-                "KJ200-687"
-            ],
-            "prefix": "KJ",
-            "start": 538.0,
-            "stop": 545.0,
-            "subject": "Angli and Warni"
-        },
-        {
-            "id": "KJ2-148",
-            "parents": [
-                "KJ2-2000"
-            ],
-            "prefix": "KJ",
-            "start": 2.0,
-            "stop": 148.0,
-            "subject": "General"
-        },
-        {
-            "id": "KJ707-720",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040",
-                "KJ700-786"
-            ],
-            "prefix": "KJ",
-            "start": 707.0,
-            "stop": 720.0,
-            "subject": "The estates"
         },
         {
             "id": "KJ752-759",
@@ -48367,27 +48525,6 @@
             "subject": "Contemporary legal literature"
         },
         {
-            "id": "KJ792-924",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040"
-            ],
-            "prefix": "KJ",
-            "start": 792.0,
-            "stop": 924.0,
-            "subject": "Private law"
-        },
-        {
-            "id": "KJ160-1040",
-            "parents": [
-                "KJ2-2000"
-            ],
-            "prefix": "KJ",
-            "start": 160.0,
-            "stop": 1040.0,
-            "subject": "Germanic law"
-        },
-        {
             "id": "KJ320-398",
             "parents": [
                 "KJ2-2000",
@@ -48401,40 +48538,6 @@
             "subject": "Franks"
         },
         {
-            "id": "KJ945-972",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040"
-            ],
-            "prefix": "KJ",
-            "start": 945.0,
-            "stop": 972.0,
-            "subject": "Courts and procedure"
-        },
-        {
-            "id": "KJ399-425",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040",
-                "KJ195-694",
-                "KJ200-687"
-            ],
-            "prefix": "KJ",
-            "start": 399.0,
-            "stop": 425.0,
-            "subject": "Langobards.    Leges Langobardicae"
-        },
-        {
-            "id": "KJ1102-2000",
-            "parents": [
-                "KJ2-2000"
-            ],
-            "prefix": "KJ",
-            "start": 1102.0,
-            "stop": 2000.0,
-            "subject": "Slavic nations.    Slavic law"
-        },
-        {
             "id": "KJ700-786",
             "parents": [
                 "KJ2-2000",
@@ -48444,51 +48547,6 @@
             "start": 700.0,
             "stop": 786.0,
             "subject": "Germanic nations and their constitution"
-        },
-        {
-            "id": "KJ200-687",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040",
-                "KJ195-694"
-            ],
-            "prefix": "KJ",
-            "start": 200.0,
-            "stop": 687.0,
-            "subject": "East and West Germanic"
-        },
-        {
-            "id": "KJ2-2000",
-            "parents": [],
-            "prefix": "KJ",
-            "start": 2.0,
-            "stop": 2000.0,
-            "subject": "History of Law (Europe)"
-        },
-        {
-            "id": "KJ742-748",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040",
-                "KJ700-786"
-            ],
-            "prefix": "KJ",
-            "start": 742.0,
-            "stop": 748.0,
-            "subject": "Rural land tenure"
-        },
-        {
-            "id": "KJ575-580",
-            "parents": [
-                "KJ2-2000",
-                "KJ160-1040",
-                "KJ195-694",
-                "KJ200-687"
-            ],
-            "prefix": "KJ",
-            "start": 575.0,
-            "stop": 580.0,
-            "subject": "Curic Rhaetia"
         },
         {
             "id": "KJ290-310",
@@ -48512,83 +48570,21 @@
             "start": 150.0,
             "stop": 158.0,
             "subject": "The Celts"
+        },
+        {
+            "id": "KJ742-748",
+            "parents": [
+                "KJ2-2000",
+                "KJ160-1040",
+                "KJ700-786"
+            ],
+            "prefix": "KJ",
+            "start": 742.0,
+            "stop": 748.0,
+            "subject": "Rural land tenure"
         }
     ],
     "KJA": [
-        {
-            "id": "KJA285-365",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA200-994"
-            ],
-            "prefix": "KJA",
-            "start": 285.0,
-            "stop": 365.0,
-            "subject": "Edicta magistratum"
-        },
-        {
-            "id": "KJA2270-2432",
-            "parents": [
-                "KJA2-3660",
-                "KJA2190-2830"
-            ],
-            "prefix": "KJA",
-            "start": 2270.0,
-            "stop": 2432.0,
-            "subject": "Inheritance.    Succession upon death"
-        },
-        {
-            "id": "KJA1870-1878",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138",
-                "KJA1570-1920"
-            ],
-            "prefix": "KJA",
-            "start": 1870.0,
-            "stop": 1878.0,
-            "subject": "Portuguese"
-        },
-        {
-            "id": "KJA1540-1556",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-1556",
-                "KJA1484-1556"
-            ],
-            "prefix": "KJA",
-            "start": 1540.0,
-            "stop": 1556.0,
-            "subject": "8th to 14th century"
-        },
-        {
-            "id": "KJA3150-3220",
-            "parents": [
-                "KJA2-3660",
-                "KJA2850-3328"
-            ],
-            "prefix": "KJA",
-            "start": 3150.0,
-            "stop": 3220.0,
-            "subject": "Public finance"
-        },
-        {
-            "id": "KJA662-664",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA200-994"
-            ],
-            "prefix": "KJA",
-            "start": 662.0,
-            "stop": 664.0,
-            "subject": "Public documents other than laws"
-        },
         {
             "id": "KJA2145-2150",
             "parents": [
@@ -48612,28 +48608,6 @@
             "subject": "Foreign relations.    Ius gentium"
         },
         {
-            "id": "KJA2190-2830",
-            "parents": [
-                "KJA2-3660"
-            ],
-            "prefix": "KJA",
-            "start": 2190.0,
-            "stop": 2830.0,
-            "subject": "Private law and procedure"
-        },
-        {
-            "id": "KJA690-994",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA200-994"
-            ],
-            "prefix": "KJA",
-            "start": 690.0,
-            "stop": 994.0,
-            "subject": "Jurists' law.    Jus"
-        },
-        {
             "id": "KJA1030-1345",
             "parents": [
                 "KJA2-3660",
@@ -48643,64 +48617,6 @@
             "start": 1030.0,
             "stop": 1345.0,
             "subject": "Justinian, 527-565 A.D."
-        },
-        {
-            "id": "KJA1350-2138",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152"
-            ],
-            "prefix": "KJA",
-            "start": 1350.0,
-            "stop": 2138.0,
-            "subject": "Post-Justinian periods"
-        },
-        {
-            "id": "KJA1570-1920",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138"
-            ],
-            "prefix": "KJA",
-            "start": 1570.0,
-            "stop": 1920.0,
-            "subject": "6th to 15th centuries.    Jus Romanum Medii"
-        },
-        {
-            "id": "KJA2192-2225.5",
-            "parents": [
-                "KJA2-3660",
-                "KJA2190-2830"
-            ],
-            "prefix": "KJA",
-            "start": 2192.0,
-            "stop": 2225.5,
-            "subject": "Persons"
-        },
-        {
-            "id": "KJA160-174",
-            "parents": [
-                "KJA2-3660"
-            ],
-            "prefix": "KJA",
-            "start": 160.0,
-            "stop": 174.0,
-            "subject": "Roman law compared with other legal systems"
-        },
-        {
-            "id": "KJA1560-2138",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138"
-            ],
-            "prefix": "KJA",
-            "start": 1560.0,
-            "stop": 2138.0,
-            "subject": "Occident"
         },
         {
             "id": "KJA1411-1420",
@@ -48739,33 +48655,6 @@
             "subject": "Individual constitutiones"
         },
         {
-            "id": "KJA580-640",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA200-994"
-            ],
-            "prefix": "KJA",
-            "start": 580.0,
-            "stop": 640.0,
-            "subject": "Leges Romanae barbarorum.    Roman law of the"
-        },
-        {
-            "id": "KJA2030-2070",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138",
-                "KJA1935-2138"
-            ],
-            "prefix": "KJA",
-            "start": 2030.0,
-            "stop": 2070.0,
-            "subject": "Italian"
-        },
-        {
             "id": "KJA2850-3328",
             "parents": [
                 "KJA2-3660"
@@ -48776,21 +48665,6 @@
             "subject": "Public law"
         },
         {
-            "id": "KJA1575-1622",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138",
-                "KJA1570-1920"
-            ],
-            "prefix": "KJA",
-            "start": 1575.0,
-            "stop": 1622.0,
-            "subject": "Individual titles"
-        },
-        {
             "id": "KJA190-2152",
             "parents": [
                 "KJA2-3660"
@@ -48799,81 +48673,6 @@
             "start": 190.0,
             "stop": 2152.0,
             "subject": "Sources"
-        },
-        {
-            "id": "KJA520-540",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA200-994"
-            ],
-            "prefix": "KJA",
-            "start": 520.0,
-            "stop": 540.0,
-            "subject": "Provincial laws"
-        },
-        {
-            "id": "KJA2970-3037",
-            "parents": [
-                "KJA2-3660",
-                "KJA2850-3328",
-                "KJA2856-3050"
-            ],
-            "prefix": "KJA",
-            "start": 2970.0,
-            "stop": 3037.0,
-            "subject": "Organs of government"
-        },
-        {
-            "id": "KJA2512-2640",
-            "parents": [
-                "KJA2-3660",
-                "KJA2190-2830"
-            ],
-            "prefix": "KJA",
-            "start": 2512.0,
-            "stop": 2640.0,
-            "subject": "Obligations.    Contracts"
-        },
-        {
-            "id": "KJA3250-3300",
-            "parents": [
-                "KJA2-3660",
-                "KJA2850-3328"
-            ],
-            "prefix": "KJA",
-            "start": 3250.0,
-            "stop": 3300.0,
-            "subject": "The military establishment"
-        },
-        {
-            "id": "KJA1822-1847",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138",
-                "KJA1570-1920"
-            ],
-            "prefix": "KJA",
-            "start": 1822.0,
-            "stop": 1847.0,
-            "subject": "French"
-        },
-        {
-            "id": "KJA1935-2138",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138"
-            ],
-            "prefix": "KJA",
-            "start": 1935.0,
-            "stop": 2138.0,
-            "subject": "16th to 18th centuries.    Common law in"
         },
         {
             "id": "KJA1905-1920",
@@ -48902,18 +48701,68 @@
             "subject": "Administrative organization and process"
         },
         {
-            "id": "KJA200-994",
+            "id": "KJA1061-1340",
             "parents": [
                 "KJA2-3660",
-                "KJA190-2152"
+                "KJA190-2152",
+                "KJA1030-1345"
             ],
             "prefix": "KJA",
-            "start": 200.0,
-            "stop": 994.0,
-            "subject": "Pre-Justinian periods"
+            "start": 1061.0,
+            "stop": 1340.0,
+            "subject": "Corpus Iuris Civilis"
         },
         {
-            "id": "KJA1942-1989",
+            "id": "KJA2227-2269",
+            "parents": [
+                "KJA2-3660",
+                "KJA2190-2830"
+            ],
+            "prefix": "KJA",
+            "start": 2227.0,
+            "stop": 2269.0,
+            "subject": "Family law"
+        },
+        {
+            "id": "KJA1630-1815",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138",
+                "KJA1570-1920"
+            ],
+            "prefix": "KJA",
+            "start": 1630.0,
+            "stop": 1815.0,
+            "subject": "Individual jurists"
+        },
+        {
+            "id": "KJA2700-2830",
+            "parents": [
+                "KJA2-3660",
+                "KJA2190-2830"
+            ],
+            "prefix": "KJA",
+            "start": 2700.0,
+            "stop": 2830.0,
+            "subject": "Civil procedure.    Arbitration.    Bankruptcy"
+        },
+        {
+            "id": "KJA1480",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-1556"
+            ],
+            "prefix": "KJA",
+            "start": 1480.0,
+            "stop": 1480.0,
+            "subject": "Provincial laws.    Laws of particular districts"
+        },
+        {
+            "id": "KJA2075-2118",
             "parents": [
                 "KJA2-3660",
                 "KJA190-2152",
@@ -48923,9 +48772,117 @@
                 "KJA1935-2138"
             ],
             "prefix": "KJA",
-            "start": 1942.0,
-            "stop": 1989.0,
-            "subject": "French"
+            "start": 2075.0,
+            "stop": 2118.0,
+            "subject": "German"
+        },
+        {
+            "id": "KJA1345",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1030-1345"
+            ],
+            "prefix": "KJA",
+            "start": 1345.0,
+            "stop": 1345.0,
+            "subject": "Individual constitutiones"
+        },
+        {
+            "id": "KJA1488-1535",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-1556",
+                "KJA1484-1556"
+            ],
+            "prefix": "KJA",
+            "start": 1488.0,
+            "stop": 1535.0,
+            "subject": "6th and 7th centuries"
+        },
+        {
+            "id": "KJA3340-3660",
+            "parents": [
+                "KJA2-3660"
+            ],
+            "prefix": "KJA",
+            "start": 3340.0,
+            "stop": 3660.0,
+            "subject": "Criminal law and procedure"
+        },
+        {
+            "id": "KJA1540-1556",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-1556",
+                "KJA1484-1556"
+            ],
+            "prefix": "KJA",
+            "start": 1540.0,
+            "stop": 1556.0,
+            "subject": "8th to 14th century"
+        },
+        {
+            "id": "KJA3150-3220",
+            "parents": [
+                "KJA2-3660",
+                "KJA2850-3328"
+            ],
+            "prefix": "KJA",
+            "start": 3150.0,
+            "stop": 3220.0,
+            "subject": "Public finance"
+        },
+        {
+            "id": "KJA662-664",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA200-994"
+            ],
+            "prefix": "KJA",
+            "start": 662.0,
+            "stop": 664.0,
+            "subject": "Public documents other than laws"
+        },
+        {
+            "id": "KJA1350-2138",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152"
+            ],
+            "prefix": "KJA",
+            "start": 1350.0,
+            "stop": 2138.0,
+            "subject": "Post-Justinian periods"
+        },
+        {
+            "id": "KJA2192-2225.5",
+            "parents": [
+                "KJA2-3660",
+                "KJA2190-2830"
+            ],
+            "prefix": "KJA",
+            "start": 2192.0,
+            "stop": 2225.5,
+            "subject": "Persons"
+        },
+        {
+            "id": "KJA1575-1622",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138",
+                "KJA1570-1920"
+            ],
+            "prefix": "KJA",
+            "start": 1575.0,
+            "stop": 1622.0,
+            "subject": "Individual titles"
         },
         {
             "id": "KJA265",
@@ -48955,27 +48912,119 @@
             "subject": "Spanish"
         },
         {
-            "id": "KJA1061-1340",
+            "id": "KJA1925",
             "parents": [
                 "KJA2-3660",
                 "KJA190-2152",
-                "KJA1030-1345"
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138"
             ],
             "prefix": "KJA",
-            "start": 1061.0,
-            "stop": 1340.0,
-            "subject": "Corpus Iuris Civilis"
+            "start": 1925.0,
+            "stop": 1925.0,
+            "subject": "Other jurists of the 14th and 15th centuries"
         },
         {
-            "id": "KJA2227-2269",
+            "id": "KJA2-3660",
+            "parents": [],
+            "prefix": "KJA",
+            "start": 2.0,
+            "stop": 3660.0,
+            "subject": "Roman Law"
+        },
+        {
+            "id": "KJA1870-1878",
             "parents": [
                 "KJA2-3660",
-                "KJA2190-2830"
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138",
+                "KJA1570-1920"
             ],
             "prefix": "KJA",
-            "start": 2227.0,
-            "stop": 2269.0,
-            "subject": "Family law"
+            "start": 1870.0,
+            "stop": 1878.0,
+            "subject": "Portuguese"
+        },
+        {
+            "id": "KJA2190-2830",
+            "parents": [
+                "KJA2-3660"
+            ],
+            "prefix": "KJA",
+            "start": 2190.0,
+            "stop": 2830.0,
+            "subject": "Private law and procedure"
+        },
+        {
+            "id": "KJA1570-1920",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138"
+            ],
+            "prefix": "KJA",
+            "start": 1570.0,
+            "stop": 1920.0,
+            "subject": "6th to 15th centuries.    Jus Romanum Medii"
+        },
+        {
+            "id": "KJA1560-2138",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138"
+            ],
+            "prefix": "KJA",
+            "start": 1560.0,
+            "stop": 2138.0,
+            "subject": "Occident"
+        },
+        {
+            "id": "KJA2030-2070",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138",
+                "KJA1935-2138"
+            ],
+            "prefix": "KJA",
+            "start": 2030.0,
+            "stop": 2070.0,
+            "subject": "Italian"
+        },
+        {
+            "id": "KJA520-540",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA200-994"
+            ],
+            "prefix": "KJA",
+            "start": 520.0,
+            "stop": 540.0,
+            "subject": "Provincial laws"
+        },
+        {
+            "id": "KJA1822-1847",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138",
+                "KJA1570-1920"
+            ],
+            "prefix": "KJA",
+            "start": 1822.0,
+            "stop": 1847.0,
+            "subject": "French"
         },
         {
             "id": "KJA1484-1556",
@@ -48990,52 +49039,26 @@
             "subject": "Jurists' law"
         },
         {
-            "id": "KJA2700-2830",
+            "id": "KJA2512-2640",
             "parents": [
                 "KJA2-3660",
                 "KJA2190-2830"
             ],
             "prefix": "KJA",
-            "start": 2700.0,
-            "stop": 2830.0,
-            "subject": "Civil procedure.    Arbitration.    Bankruptcy"
+            "start": 2512.0,
+            "stop": 2640.0,
+            "subject": "Obligations.    Contracts"
         },
         {
-            "id": "KJA2856-3050",
+            "id": "KJA2436-2510",
             "parents": [
                 "KJA2-3660",
-                "KJA2850-3328"
+                "KJA2190-2830"
             ],
             "prefix": "KJA",
-            "start": 2856.0,
-            "stop": 3050.0,
-            "subject": "Constitutional law"
-        },
-        {
-            "id": "KJA1480",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-1556"
-            ],
-            "prefix": "KJA",
-            "start": 1480.0,
-            "stop": 1480.0,
-            "subject": "Provincial laws.    Laws of particular districts"
-        },
-        {
-            "id": "KJA1925",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138"
-            ],
-            "prefix": "KJA",
-            "start": 1925.0,
-            "stop": 1925.0,
-            "subject": "Other jurists of the 14th and 15th centuries"
+            "start": 2436.0,
+            "stop": 2510.0,
+            "subject": "Law of things.    Res"
         },
         {
             "id": "KJA2120-2138",
@@ -49053,18 +49076,6 @@
             "subject": "Dutch"
         },
         {
-            "id": "KJA390-500",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA200-994"
-            ],
-            "prefix": "KJA",
-            "start": 390.0,
-            "stop": 500.0,
-            "subject": "Constitutiones principum"
-        },
-        {
             "id": "KJA211-220",
             "parents": [
                 "KJA2-3660",
@@ -49075,71 +49086,6 @@
             "start": 211.0,
             "stop": 220.0,
             "subject": "Leges regiae"
-        },
-        {
-            "id": "KJA3040-3050",
-            "parents": [
-                "KJA2-3660",
-                "KJA2850-3328",
-                "KJA2856-3050"
-            ],
-            "prefix": "KJA",
-            "start": 3040.0,
-            "stop": 3050.0,
-            "subject": "Organization of the judiciary"
-        },
-        {
-            "id": "KJA1630-1815",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138",
-                "KJA1570-1920"
-            ],
-            "prefix": "KJA",
-            "start": 1630.0,
-            "stop": 1815.0,
-            "subject": "Individual jurists"
-        },
-        {
-            "id": "KJA2436-2510",
-            "parents": [
-                "KJA2-3660",
-                "KJA2190-2830"
-            ],
-            "prefix": "KJA",
-            "start": 2436.0,
-            "stop": 2510.0,
-            "subject": "Law of things.    Res"
-        },
-        {
-            "id": "KJA2075-2118",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138",
-                "KJA1568-2138",
-                "KJA1935-2138"
-            ],
-            "prefix": "KJA",
-            "start": 2075.0,
-            "stop": 2118.0,
-            "subject": "German"
-        },
-        {
-            "id": "KJA1350-1556",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138"
-            ],
-            "prefix": "KJA",
-            "start": 1350.0,
-            "stop": 1556.0,
-            "subject": "Orient.    Byzantine empire"
         },
         {
             "id": "KJA1850-1868",
@@ -49157,18 +49103,6 @@
             "subject": "Spanish"
         },
         {
-            "id": "KJA1041-1050",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1030-1345"
-            ],
-            "prefix": "KJA",
-            "start": 1041.0,
-            "stop": 1050.0,
-            "subject": "Codex Justinianus, 529"
-        },
-        {
             "id": "KJA552",
             "parents": [
                 "KJA2-3660",
@@ -49181,24 +49115,207 @@
             "subject": "Other decrees.    Decrees of praetorian prefects"
         },
         {
-            "id": "KJA2-3660",
-            "parents": [],
+            "id": "KJA1568-2138",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138"
+            ],
             "prefix": "KJA",
-            "start": 2.0,
-            "stop": 3660.0,
-            "subject": "Roman Law"
+            "start": 1568.0,
+            "stop": 2138.0,
+            "subject": "Jurists' law.    Legistic"
         },
         {
-            "id": "KJA1345",
+            "id": "KJA285-365",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA200-994"
+            ],
+            "prefix": "KJA",
+            "start": 285.0,
+            "stop": 365.0,
+            "subject": "Edicta magistratum"
+        },
+        {
+            "id": "KJA690-994",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA200-994"
+            ],
+            "prefix": "KJA",
+            "start": 690.0,
+            "stop": 994.0,
+            "subject": "Jurists' law.    Jus"
+        },
+        {
+            "id": "KJA1942-1989",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138",
+                "KJA1935-2138"
+            ],
+            "prefix": "KJA",
+            "start": 1942.0,
+            "stop": 1989.0,
+            "subject": "French"
+        },
+        {
+            "id": "KJA160-174",
+            "parents": [
+                "KJA2-3660"
+            ],
+            "prefix": "KJA",
+            "start": 160.0,
+            "stop": 174.0,
+            "subject": "Roman law compared with other legal systems"
+        },
+        {
+            "id": "KJA2270-2432",
+            "parents": [
+                "KJA2-3660",
+                "KJA2190-2830"
+            ],
+            "prefix": "KJA",
+            "start": 2270.0,
+            "stop": 2432.0,
+            "subject": "Inheritance.    Succession upon death"
+        },
+        {
+            "id": "KJA580-640",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA200-994"
+            ],
+            "prefix": "KJA",
+            "start": 580.0,
+            "stop": 640.0,
+            "subject": "Leges Romanae barbarorum.    Roman law of the"
+        },
+        {
+            "id": "KJA2970-3037",
+            "parents": [
+                "KJA2-3660",
+                "KJA2850-3328",
+                "KJA2856-3050"
+            ],
+            "prefix": "KJA",
+            "start": 2970.0,
+            "stop": 3037.0,
+            "subject": "Organs of government"
+        },
+        {
+            "id": "KJA2856-3050",
+            "parents": [
+                "KJA2-3660",
+                "KJA2850-3328"
+            ],
+            "prefix": "KJA",
+            "start": 2856.0,
+            "stop": 3050.0,
+            "subject": "Constitutional law"
+        },
+        {
+            "id": "KJA3250-3300",
+            "parents": [
+                "KJA2-3660",
+                "KJA2850-3328"
+            ],
+            "prefix": "KJA",
+            "start": 3250.0,
+            "stop": 3300.0,
+            "subject": "The military establishment"
+        },
+        {
+            "id": "KJA1935-2138",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138",
+                "KJA1560-2138",
+                "KJA1568-2138"
+            ],
+            "prefix": "KJA",
+            "start": 1935.0,
+            "stop": 2138.0,
+            "subject": "16th to 18th centuries.    Common law in"
+        },
+        {
+            "id": "KJA200-994",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152"
+            ],
+            "prefix": "KJA",
+            "start": 200.0,
+            "stop": 994.0,
+            "subject": "Pre-Justinian periods"
+        },
+        {
+            "id": "KJA3060",
+            "parents": [
+                "KJA2-3660",
+                "KJA2850-3328"
+            ],
+            "prefix": "KJA",
+            "start": 3060.0,
+            "stop": 3060.0,
+            "subject": "State and religion"
+        },
+        {
+            "id": "KJA390-500",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA200-994"
+            ],
+            "prefix": "KJA",
+            "start": 390.0,
+            "stop": 500.0,
+            "subject": "Constitutiones principum"
+        },
+        {
+            "id": "KJA3040-3050",
+            "parents": [
+                "KJA2-3660",
+                "KJA2850-3328",
+                "KJA2856-3050"
+            ],
+            "prefix": "KJA",
+            "start": 3040.0,
+            "stop": 3050.0,
+            "subject": "Organization of the judiciary"
+        },
+        {
+            "id": "KJA1350-1556",
+            "parents": [
+                "KJA2-3660",
+                "KJA190-2152",
+                "KJA1350-2138"
+            ],
+            "prefix": "KJA",
+            "start": 1350.0,
+            "stop": 1556.0,
+            "subject": "Orient.    Byzantine empire"
+        },
+        {
+            "id": "KJA1041-1050",
             "parents": [
                 "KJA2-3660",
                 "KJA190-2152",
                 "KJA1030-1345"
             ],
             "prefix": "KJA",
-            "start": 1345.0,
-            "stop": 1345.0,
-            "subject": "Individual constitutiones"
+            "start": 1041.0,
+            "stop": 1050.0,
+            "subject": "Codex Justinianus, 529"
         },
         {
             "id": "KJA1882-1902",
@@ -49214,67 +49331,9 @@
             "start": 1882.0,
             "stop": 1902.0,
             "subject": "German"
-        },
-        {
-            "id": "KJA3060",
-            "parents": [
-                "KJA2-3660",
-                "KJA2850-3328"
-            ],
-            "prefix": "KJA",
-            "start": 3060.0,
-            "stop": 3060.0,
-            "subject": "State and religion"
-        },
-        {
-            "id": "KJA1488-1535",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-1556",
-                "KJA1484-1556"
-            ],
-            "prefix": "KJA",
-            "start": 1488.0,
-            "stop": 1535.0,
-            "subject": "6th and 7th centuries"
-        },
-        {
-            "id": "KJA3340-3660",
-            "parents": [
-                "KJA2-3660"
-            ],
-            "prefix": "KJA",
-            "start": 3340.0,
-            "stop": 3660.0,
-            "subject": "Criminal law and procedure"
-        },
-        {
-            "id": "KJA1568-2138",
-            "parents": [
-                "KJA2-3660",
-                "KJA190-2152",
-                "KJA1350-2138",
-                "KJA1560-2138"
-            ],
-            "prefix": "KJA",
-            "start": 1568.0,
-            "stop": 2138.0,
-            "subject": "Jurists' law.    Legistic"
         }
     ],
     "KJC": [
-        {
-            "id": "KJC7431-7435",
-            "parents": [
-                "KJC2-9799",
-                "KJC7049-7495"
-            ],
-            "prefix": "KJC",
-            "start": 7431.0,
-            "stop": 7435.0,
-            "subject": "Tax and customs courts and procedure"
-        },
         {
             "id": "KJC6068-6155",
             "parents": [
@@ -49286,57 +49345,15 @@
             "subject": "Public property.    Domaine public.    Public restraint on"
         },
         {
-            "id": "KJC7475-7495",
+            "id": "KJC3381-3411",
             "parents": [
                 "KJC2-9799",
-                "KJC7049-7495"
+                "KJC3271-3428"
             ],
             "prefix": "KJC",
-            "start": 7475.0,
-            "stop": 7495.0,
-            "subject": "Tax and customs crimes and delinquency"
-        },
-        {
-            "id": "KJC6242-6256",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 6242.0,
-            "stop": 6256.0,
-            "subject": "Environmental law"
-        },
-        {
-            "id": "KJC3431-3570",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 3431.0,
-            "stop": 3570.0,
-            "subject": "Social services.    Public welfare"
-        },
-        {
-            "id": "KJC7350-7358",
-            "parents": [
-                "KJC2-9799",
-                "KJC7049-7495"
-            ],
-            "prefix": "KJC",
-            "start": 7350.0,
-            "stop": 7358.0,
-            "subject": "State and local finance"
-        },
-        {
-            "id": "KJC1100-1247",
-            "parents": [
-                "KJC2-9799",
-                "KJC981-1905"
-            ],
-            "prefix": "KJC",
-            "start": 1100.0,
-            "stop": 1247.0,
-            "subject": "Family law.    Domestic relations"
+            "start": 3381.0,
+            "stop": 3411.0,
+            "subject": "Social security"
         },
         {
             "id": "KJC6799-6830",
@@ -49351,39 +49368,6 @@
             "subject": "Domestic trade"
         },
         {
-            "id": "KJC600",
-            "parents": [
-                "KJC2-9799",
-                "KJC480-650"
-            ],
-            "prefix": "KJC",
-            "start": 600.0,
-            "stop": 600.0,
-            "subject": "Southeastern Europe.    Balkan Peninsula"
-        },
-        {
-            "id": "KJC3350-3374",
-            "parents": [
-                "KJC2-9799",
-                "KJC3271-3428"
-            ],
-            "prefix": "KJC",
-            "start": 3350.0,
-            "stop": 3374.0,
-            "subject": "Workers compensation"
-        },
-        {
-            "id": "KJC6569-6830",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858"
-            ],
-            "prefix": "KJC",
-            "start": 6569.0,
-            "stop": 6830.0,
-            "subject": "Regulation of industry, trade, and commerce"
-        },
-        {
             "id": "KJC4431-5456",
             "parents": [
                 "KJC2-9799"
@@ -49394,83 +49378,14 @@
             "subject": "Constitutional law"
         },
         {
-            "id": "KJC6590-6681",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858",
-                "KJC6569-6830"
-            ],
-            "prefix": "KJC",
-            "start": 6590.0,
-            "stop": 6681.0,
-            "subject": "Agriculture.    Forestry.    Horticulture.    Viticulture"
-        },
-        {
-            "id": "KJC2837",
-            "parents": [
-                "KJC2-9799",
-                "KJC2836-2839"
-            ],
-            "prefix": "KJC",
-            "start": 2837.0,
-            "stop": 2837.0,
-            "subject": "Social reform and policies"
-        },
-        {
-            "id": "KJC1263-1312",
-            "parents": [
-                "KJC2-9799",
-                "KJC981-1905",
-                "KJC1251-1437"
-            ],
-            "prefix": "KJC",
-            "start": 1263.0,
-            "stop": 1312.0,
-            "subject": "Possession.    Ownership"
-        },
-        {
-            "id": "KJC8230-8338",
-            "parents": [
-                "KJC2-9799",
-                "KJC7962-9380"
-            ],
-            "prefix": "KJC",
-            "start": 8230.0,
-            "stop": 8338.0,
-            "subject": "Punishment"
-        },
-        {
-            "id": "KJC3421-3428",
-            "parents": [
-                "KJC2-9799",
-                "KJC3271-3428"
-            ],
-            "prefix": "KJC",
-            "start": 3421.0,
-            "stop": 3428.0,
-            "subject": "Unemployment insurance"
-        },
-        {
-            "id": "KJC6791-6795",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858",
-                "KJC6569-6830"
-            ],
-            "prefix": "KJC",
-            "start": 6791.0,
-            "stop": 6795.0,
-            "subject": "International trade"
-        },
-        {
-            "id": "KJC7005-7018",
+            "id": "KJC5932-5960",
             "parents": [
                 "KJC2-9799"
             ],
             "prefix": "KJC",
-            "start": 7005.0,
-            "stop": 7018.0,
-            "subject": "Press law"
+            "start": 5932.0,
+            "stop": 5960.0,
+            "subject": "Civil service"
         },
         {
             "id": "KJC7101-7309",
@@ -49485,18 +49400,6 @@
             "subject": "Taxation"
         },
         {
-            "id": "KJC2435-2446",
-            "parents": [
-                "KJC2-9799",
-                "KJC2041-2635",
-                "KJC2432-2635"
-            ],
-            "prefix": "KJC",
-            "start": 2435.0,
-            "stop": 2446.0,
-            "subject": "Personal companies.    Unincorporated business"
-        },
-        {
             "id": "KJC2432-2635",
             "parents": [
                 "KJC2-9799",
@@ -49508,35 +49411,16 @@
             "subject": "Business associations"
         },
         {
-            "id": "KJC510",
+            "id": "KJC6590-6681",
             "parents": [
                 "KJC2-9799",
-                "KJC480-650"
+                "KJC6411-6858",
+                "KJC6569-6830"
             ],
             "prefix": "KJC",
-            "start": 510.0,
-            "stop": 510.0,
-            "subject": "Eastern Europe"
-        },
-        {
-            "id": "KJC4413-4428",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 4413.0,
-            "stop": 4428.0,
-            "subject": "Public law.    The State"
-        },
-        {
-            "id": "KJC2636-2830",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 2636.0,
-            "stop": 2830.0,
-            "subject": "Intellectual and industrial property"
+            "start": 6590.0,
+            "stop": 6681.0,
+            "subject": "Agriculture.    Forestry.    Horticulture.    Viticulture"
         },
         {
             "id": "KJC3587",
@@ -49547,17 +49431,6 @@
             "start": 3587.0,
             "stop": 3587.0,
             "subject": "Social courts and procedure"
-        },
-        {
-            "id": "KJC2188-2255",
-            "parents": [
-                "KJC2-9799",
-                "KJC2041-2635"
-            ],
-            "prefix": "KJC",
-            "start": 2188.0,
-            "stop": 2255.0,
-            "subject": "Banking.    Stock exchange"
         },
         {
             "id": "KJC1720-1905",
@@ -49572,18 +49445,6 @@
             "subject": "Contracts and transactions"
         },
         {
-            "id": "KJC2598-2613",
-            "parents": [
-                "KJC2-9799",
-                "KJC2041-2635",
-                "KJC2432-2635"
-            ],
-            "prefix": "KJC",
-            "start": 2598.0,
-            "stop": 2613.0,
-            "subject": "Combinations.    Industrial trusts"
-        },
-        {
             "id": "KJC1315-1357",
             "parents": [
                 "KJC2-9799",
@@ -49596,122 +49457,14 @@
             "subject": "Real property"
         },
         {
-            "id": "KJC1251-1437",
-            "parents": [
-                "KJC2-9799",
-                "KJC981-1905"
-            ],
-            "prefix": "KJC",
-            "start": 1251.0,
-            "stop": 1437.0,
-            "subject": "Law of things.    Property"
-        },
-        {
-            "id": "KJC5119-5207",
-            "parents": [
-                "KJC2-9799",
-                "KJC4431-5456"
-            ],
-            "prefix": "KJC",
-            "start": 5119.0,
-            "stop": 5207.0,
-            "subject": "Individual and state"
-        },
-        {
-            "id": "KJC4431-4435.8",
-            "parents": [
-                "KJC2-9799",
-                "KJC4431-5456"
-            ],
-            "prefix": "KJC",
-            "start": 4431.0,
-            "stop": 4435.8,
-            "subject": "Constitutional history.    Feudal law"
-        },
-        {
-            "id": "KJC7097",
-            "parents": [
-                "KJC2-9799",
-                "KJC7049-7495"
-            ],
-            "prefix": "KJC",
-            "start": 7097.0,
-            "stop": 7097.0,
-            "subject": "International capital movement regulation"
-        },
-        {
-            "id": "KJC7098-7346",
-            "parents": [
-                "KJC2-9799",
-                "KJC7049-7495"
-            ],
-            "prefix": "KJC",
-            "start": 7098.0,
-            "stop": 7346.0,
-            "subject": "National revenue"
-        },
-        {
-            "id": "KJC2870-2940",
-            "parents": [
-                "KJC2-9799",
-                "KJC2849-3215"
-            ],
-            "prefix": "KJC",
-            "start": 2870.0,
-            "stop": 2940.0,
-            "subject": "Labor contract and employment"
-        },
-        {
-            "id": "KJC9799",
-            "parents": [
-                "KJC2-9799",
-                "KJC9400-9799"
-            ],
-            "prefix": "KJC",
-            "start": 9799.0,
-            "stop": 9799.0,
-            "subject": "Victimology"
-        },
-        {
-            "id": "KJC5515",
+            "id": "KJC7962-9380",
             "parents": [
                 "KJC2-9799"
             ],
             "prefix": "KJC",
-            "start": 5515.0,
-            "stop": 5515.0,
-            "subject": "Colonial law"
-        },
-        {
-            "id": "KJC5520-5527",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 5520.0,
-            "stop": 5527.0,
-            "subject": "Secular ecclesiastical law"
-        },
-        {
-            "id": "KJC955-956",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 955.0,
-            "stop": 956.0,
-            "subject": "Private law"
-        },
-        {
-            "id": "KJC2301-2428",
-            "parents": [
-                "KJC2-9799",
-                "KJC2041-2635"
-            ],
-            "prefix": "KJC",
-            "start": 2301.0,
-            "stop": 2428.0,
-            "subject": "Insurance law"
+            "start": 7962.0,
+            "stop": 9380.0,
+            "subject": "Criminal law"
         },
         {
             "id": "KJC5259-5445",
@@ -49723,29 +49476,6 @@
             "start": 5259.0,
             "stop": 5445.0,
             "subject": "Organs of government"
-        },
-        {
-            "id": "KJC2799-2830",
-            "parents": [
-                "KJC2-9799",
-                "KJC2636-2830"
-            ],
-            "prefix": "KJC",
-            "start": 2799.0,
-            "stop": 2830.0,
-            "subject": "Unfair competition"
-        },
-        {
-            "id": "KJC6695-6697",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858",
-                "KJC6569-6830"
-            ],
-            "prefix": "KJC",
-            "start": 6695.0,
-            "stop": 6697.0,
-            "subject": "Fisheries"
         },
         {
             "id": "KJC6411-6858",
@@ -49793,79 +49523,12 @@
             "subject": "Manufacturing industries"
         },
         {
-            "id": "KJC6456-6497",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858"
-            ],
-            "prefix": "KJC",
-            "start": 6456.0,
-            "stop": 6497.0,
-            "subject": "Competition rules"
-        },
-        {
-            "id": "KJC4044-4152",
-            "parents": [
-                "KJC2-9799",
-                "KJC3655-4152"
-            ],
-            "prefix": "KJC",
-            "start": 4044.0,
-            "stop": 4152.0,
-            "subject": "Noncontentious jurisdiction"
-        },
-        {
-            "id": "KJC1410-1437",
-            "parents": [
-                "KJC2-9799",
-                "KJC981-1905",
-                "KJC1251-1437"
-            ],
-            "prefix": "KJC",
-            "start": 1410.0,
-            "stop": 1437.0,
-            "subject": "Land register and registration"
-        },
-        {
-            "id": "KJC7312-7346",
-            "parents": [
-                "KJC2-9799",
-                "KJC7049-7495",
-                "KJC7098-7346"
-            ],
-            "prefix": "KJC",
-            "start": 7312.0,
-            "stop": 7346.0,
-            "subject": "Customs.    Tariff"
-        },
-        {
-            "id": "KJC2256-2289",
-            "parents": [
-                "KJC2-9799",
-                "KJC2041-2635"
-            ],
-            "prefix": "KJC",
-            "start": 2256.0,
-            "stop": 2289.0,
-            "subject": "Maritime law"
-        },
-        {
             "id": "KJC2-9799",
             "parents": [],
             "prefix": "KJC",
             "start": 2.0,
             "stop": 9799.0,
             "subject": "Regional comparative and uniform law (Europe)"
-        },
-        {
-            "id": "KJC3271-3428",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 3271.0,
-            "stop": 3428.0,
-            "subject": "Social insurance"
         },
         {
             "id": "KJC6172-6237",
@@ -49878,18 +49541,6 @@
             "subject": "Public health.    Medical legislation"
         },
         {
-            "id": "KJC1382-1398",
-            "parents": [
-                "KJC2-9799",
-                "KJC981-1905",
-                "KJC1251-1437"
-            ],
-            "prefix": "KJC",
-            "start": 1382.0,
-            "stop": 1398.0,
-            "subject": "Pledges"
-        },
-        {
             "id": "KJC981-1905",
             "parents": [
                 "KJC2-9799"
@@ -49898,41 +49549,6 @@
             "start": 981.0,
             "stop": 1905.0,
             "subject": "Civil law"
-        },
-        {
-            "id": "KJC1640-1716",
-            "parents": [
-                "KJC2-9799",
-                "KJC981-1905",
-                "KJC1491-1905"
-            ],
-            "prefix": "KJC",
-            "start": 1640.0,
-            "stop": 1716.0,
-            "subject": "Delicts.    Torts"
-        },
-        {
-            "id": "KJC480",
-            "parents": [
-                "KJC2-9799",
-                "KJC480-650"
-            ],
-            "prefix": "KJC",
-            "start": 480.0,
-            "stop": 480.0,
-            "subject": "Central Europe"
-        },
-        {
-            "id": "KJC2448-2553",
-            "parents": [
-                "KJC2-9799",
-                "KJC2041-2635",
-                "KJC2432-2635"
-            ],
-            "prefix": "KJC",
-            "start": 2448.0,
-            "stop": 2553.0,
-            "subject": "Stock companies.    Incorporated business"
         },
         {
             "id": "KJC6554-6559",
@@ -49946,102 +49562,6 @@
             "subject": "Standards"
         },
         {
-            "id": "KJC3056-3097",
-            "parents": [
-                "KJC2-9799",
-                "KJC2849-3215"
-            ],
-            "prefix": "KJC",
-            "start": 3056.0,
-            "stop": 3097.0,
-            "subject": "Collective bargaining and labor agreements"
-        },
-        {
-            "id": "KJC3575",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 3575.0,
-            "stop": 3575.0,
-            "subject": "Birth control.    Family planning.    Population control"
-        },
-        {
-            "id": "KJC3811-4024",
-            "parents": [
-                "KJC2-9799",
-                "KJC3655-4152"
-            ],
-            "prefix": "KJC",
-            "start": 3811.0,
-            "stop": 4024.0,
-            "subject": "Civil procedure"
-        },
-        {
-            "id": "KJC957-979",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 957.0,
-            "stop": 979.0,
-            "subject": "Private international law"
-        },
-        {
-            "id": "KJC3140-3189",
-            "parents": [
-                "KJC2-9799",
-                "KJC2849-3215"
-            ],
-            "prefix": "KJC",
-            "start": 3140.0,
-            "stop": 3189.0,
-            "subject": "Protection of labor"
-        },
-        {
-            "id": "KJC6257-6405",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 6257.0,
-            "stop": 6405.0,
-            "subject": "Cultural affairs.    Education"
-        },
-        {
-            "id": "KJC5105-5112",
-            "parents": [
-                "KJC2-9799",
-                "KJC4431-5456"
-            ],
-            "prefix": "KJC",
-            "start": 5105.0,
-            "stop": 5112.0,
-            "subject": "Foreign relations"
-        },
-        {
-            "id": "KJC3704-3791",
-            "parents": [
-                "KJC2-9799",
-                "KJC3655-4152"
-            ],
-            "prefix": "KJC",
-            "start": 3704.0,
-            "stop": 3791.0,
-            "subject": "The legal profession"
-        },
-        {
-            "id": "KJC1010-1098",
-            "parents": [
-                "KJC2-9799",
-                "KJC981-1905"
-            ],
-            "prefix": "KJC",
-            "start": 1010.0,
-            "stop": 1098.0,
-            "subject": "Concepts and principles"
-        },
-        {
             "id": "KJC2706-2712",
             "parents": [
                 "KJC2-9799",
@@ -50051,16 +49571,6 @@
             "start": 2706.0,
             "stop": 2712.0,
             "subject": "Author and publisher"
-        },
-        {
-            "id": "KJC6946-7002",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 6946.0,
-            "stop": 7002.0,
-            "subject": "Communication.    mass media"
         },
         {
             "id": "KJC8356-9380",
@@ -50074,49 +49584,6 @@
             "subject": "Individual offenses"
         },
         {
-            "id": "KJC630",
-            "parents": [
-                "KJC2-9799",
-                "KJC480-650"
-            ],
-            "prefix": "KJC",
-            "start": 630.0,
-            "stop": 630.0,
-            "subject": "Southern Europe"
-        },
-        {
-            "id": "KJC6868-6939",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 6868.0,
-            "stop": 6939.0,
-            "subject": "Transportation"
-        },
-        {
-            "id": "KJC3381-3411",
-            "parents": [
-                "KJC2-9799",
-                "KJC3271-3428"
-            ],
-            "prefix": "KJC",
-            "start": 3381.0,
-            "stop": 3411.0,
-            "subject": "Social security"
-        },
-        {
-            "id": "KJC6428-6435",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858"
-            ],
-            "prefix": "KJC",
-            "start": 6428.0,
-            "stop": 6435.0,
-            "subject": "Government control and policy"
-        },
-        {
             "id": "KJC650",
             "parents": [
                 "KJC2-9799",
@@ -50126,27 +49593,6 @@
             "start": 650.0,
             "stop": 650.0,
             "subject": "Mediterranean region"
-        },
-        {
-            "id": "KJC6848-6858",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858"
-            ],
-            "prefix": "KJC",
-            "start": 6848.0,
-            "stop": 6858.0,
-            "subject": "Energy policy.    Power supply"
-        },
-        {
-            "id": "KJC7520-7521",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 7520.0,
-            "stop": 7521.0,
-            "subject": "Government measures in time of war, national"
         },
         {
             "id": "KJC2721-2796",
@@ -50160,36 +49606,28 @@
             "subject": "Patent law and trademarks"
         },
         {
-            "id": "KJC3666-3693",
+            "id": "KJC2598-2613",
             "parents": [
                 "KJC2-9799",
-                "KJC3655-4152"
+                "KJC2041-2635",
+                "KJC2432-2635"
             ],
             "prefix": "KJC",
-            "start": 3666.0,
-            "stop": 3693.0,
-            "subject": "Courts"
+            "start": 2598.0,
+            "stop": 2613.0,
+            "subject": "Combinations.    Industrial trusts"
         },
         {
-            "id": "KJC2849-3215",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 2849.0,
-            "stop": 3215.0,
-            "subject": "Labor law"
-        },
-        {
-            "id": "KJC9760-9796",
+            "id": "KJC6700-6720",
             "parents": [
                 "KJC2-9799",
-                "KJC9400-9799"
+                "KJC6411-6858",
+                "KJC6569-6830"
             ],
             "prefix": "KJC",
-            "start": 9760.0,
-            "stop": 9796.0,
-            "subject": "Execution of sentence"
+            "start": 6700.0,
+            "stop": 6720.0,
+            "subject": "Mining.    Quarrying"
         },
         {
             "id": "KJC2981-3040",
@@ -50214,17 +49652,6 @@
             "subject": "Health insurance"
         },
         {
-            "id": "KJC2839",
-            "parents": [
-                "KJC2-9799",
-                "KJC2836-2839"
-            ],
-            "prefix": "KJC",
-            "start": 2839.0,
-            "stop": 2839.0,
-            "subject": "European Social Charter"
-        },
-        {
             "id": "KJC2950-2975",
             "parents": [
                 "KJC2-9799",
@@ -50236,14 +49663,218 @@
             "subject": "Wages"
         },
         {
-            "id": "KJC3655-4152",
+            "id": "KJC1441-1487",
+            "parents": [
+                "KJC2-9799",
+                "KJC981-1905"
+            ],
+            "prefix": "KJC",
+            "start": 1441.0,
+            "stop": 1487.0,
+            "subject": "Inheritance and succession"
+        },
+        {
+            "id": "KJC480-650",
             "parents": [
                 "KJC2-9799"
             ],
             "prefix": "KJC",
-            "start": 3655.0,
+            "start": 480.0,
+            "stop": 650.0,
+            "subject": "Regional divisions.    Subregions"
+        },
+        {
+            "id": "KJC2849-3215",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 2849.0,
+            "stop": 3215.0,
+            "subject": "Labor law"
+        },
+        {
+            "id": "KJC7049-7495",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 7049.0,
+            "stop": 7495.0,
+            "subject": "Public finance"
+        },
+        {
+            "id": "KJC7095",
+            "parents": [
+                "KJC2-9799",
+                "KJC7049-7495"
+            ],
+            "prefix": "KJC",
+            "start": 7095.0,
+            "stop": 7095.0,
+            "subject": "Foreign exchange regulation"
+        },
+        {
+            "id": "KJC530-574",
+            "parents": [
+                "KJC2-9799",
+                "KJC480-650"
+            ],
+            "prefix": "KJC",
+            "start": 530.0,
+            "stop": 574.0,
+            "subject": "Northern Europe.    Scandinavia"
+        },
+        {
+            "id": "KJC7475-7495",
+            "parents": [
+                "KJC2-9799",
+                "KJC7049-7495"
+            ],
+            "prefix": "KJC",
+            "start": 7475.0,
+            "stop": 7495.0,
+            "subject": "Tax and customs crimes and delinquency"
+        },
+        {
+            "id": "KJC7005-7018",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 7005.0,
+            "stop": 7018.0,
+            "subject": "Press law"
+        },
+        {
+            "id": "KJC2188-2255",
+            "parents": [
+                "KJC2-9799",
+                "KJC2041-2635"
+            ],
+            "prefix": "KJC",
+            "start": 2188.0,
+            "stop": 2255.0,
+            "subject": "Banking.    Stock exchange"
+        },
+        {
+            "id": "KJC1251-1437",
+            "parents": [
+                "KJC2-9799",
+                "KJC981-1905"
+            ],
+            "prefix": "KJC",
+            "start": 1251.0,
+            "stop": 1437.0,
+            "subject": "Law of things.    Property"
+        },
+        {
+            "id": "KJC2870-2940",
+            "parents": [
+                "KJC2-9799",
+                "KJC2849-3215"
+            ],
+            "prefix": "KJC",
+            "start": 2870.0,
+            "stop": 2940.0,
+            "subject": "Labor contract and employment"
+        },
+        {
+            "id": "KJC5515",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 5515.0,
+            "stop": 5515.0,
+            "subject": "Colonial law"
+        },
+        {
+            "id": "KJC4044-4152",
+            "parents": [
+                "KJC2-9799",
+                "KJC3655-4152"
+            ],
+            "prefix": "KJC",
+            "start": 4044.0,
             "stop": 4152.0,
-            "subject": "Courts and procedure"
+            "subject": "Noncontentious jurisdiction"
+        },
+        {
+            "id": "KJC2150-2173",
+            "parents": [
+                "KJC2-9799",
+                "KJC2041-2635"
+            ],
+            "prefix": "KJC",
+            "start": 2150.0,
+            "stop": 2173.0,
+            "subject": "Negotiable instruments"
+        },
+        {
+            "id": "KJC9760-9796",
+            "parents": [
+                "KJC2-9799",
+                "KJC9400-9799"
+            ],
+            "prefix": "KJC",
+            "start": 9760.0,
+            "stop": 9796.0,
+            "subject": "Execution of sentence"
+        },
+        {
+            "id": "KJC6868-6939",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 6868.0,
+            "stop": 6939.0,
+            "subject": "Transportation"
+        },
+        {
+            "id": "KJC6848-6858",
+            "parents": [
+                "KJC2-9799",
+                "KJC6411-6858"
+            ],
+            "prefix": "KJC",
+            "start": 6848.0,
+            "stop": 6858.0,
+            "subject": "Energy policy.    Power supply"
+        },
+        {
+            "id": "KJC3666-3693",
+            "parents": [
+                "KJC2-9799",
+                "KJC3655-4152"
+            ],
+            "prefix": "KJC",
+            "start": 3666.0,
+            "stop": 3693.0,
+            "subject": "Courts"
+        },
+        {
+            "id": "KJC480",
+            "parents": [
+                "KJC2-9799",
+                "KJC480-650"
+            ],
+            "prefix": "KJC",
+            "start": 480.0,
+            "stop": 480.0,
+            "subject": "Central Europe"
+        },
+        {
+            "id": "KJC7431-7435",
+            "parents": [
+                "KJC2-9799",
+                "KJC7049-7495"
+            ],
+            "prefix": "KJC",
+            "start": 7431.0,
+            "stop": 7435.0,
+            "subject": "Tax and customs courts and procedure"
         },
         {
             "id": "KJC450-472",
@@ -50267,16 +49898,6 @@
             "subject": "The administration of justice"
         },
         {
-            "id": "KJC5932-5960",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 5932.0,
-            "stop": 5960.0,
-            "subject": "Civil service"
-        },
-        {
             "id": "KJC5571-5882",
             "parents": [
                 "KJC2-9799"
@@ -50287,15 +49908,199 @@
             "subject": "Administrative law"
         },
         {
-            "id": "KJC1441-1487",
+            "id": "KJC7690-7925",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 7690.0,
+            "stop": 7925.0,
+            "subject": "National defense.    Military law"
+        },
+        {
+            "id": "KJC2836-2839",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 2836.0,
+            "stop": 2839.0,
+            "subject": "Social legislation"
+        },
+        {
+            "id": "KJC2635",
+            "parents": [
+                "KJC2-9799",
+                "KJC2041-2635",
+                "KJC2432-2635"
+            ],
+            "prefix": "KJC",
+            "start": 2635.0,
+            "stop": 2635.0,
+            "subject": "Government ownership.    Nationalization"
+        },
+        {
+            "id": "KJC6428-6435",
+            "parents": [
+                "KJC2-9799",
+                "KJC6411-6858"
+            ],
+            "prefix": "KJC",
+            "start": 6428.0,
+            "stop": 6435.0,
+            "subject": "Government control and policy"
+        },
+        {
+            "id": "KJC5977-6063",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 5977.0,
+            "stop": 6063.0,
+            "subject": "Police and public safety"
+        },
+        {
+            "id": "KJC1100-1247",
             "parents": [
                 "KJC2-9799",
                 "KJC981-1905"
             ],
             "prefix": "KJC",
-            "start": 1441.0,
-            "stop": 1487.0,
-            "subject": "Inheritance and succession"
+            "start": 1100.0,
+            "stop": 1247.0,
+            "subject": "Family law.    Domestic relations"
+        },
+        {
+            "id": "KJC6569-6830",
+            "parents": [
+                "KJC2-9799",
+                "KJC6411-6858"
+            ],
+            "prefix": "KJC",
+            "start": 6569.0,
+            "stop": 6830.0,
+            "subject": "Regulation of industry, trade, and commerce"
+        },
+        {
+            "id": "KJC2839",
+            "parents": [
+                "KJC2-9799",
+                "KJC2836-2839"
+            ],
+            "prefix": "KJC",
+            "start": 2839.0,
+            "stop": 2839.0,
+            "subject": "European Social Charter"
+        },
+        {
+            "id": "KJC2837",
+            "parents": [
+                "KJC2-9799",
+                "KJC2836-2839"
+            ],
+            "prefix": "KJC",
+            "start": 2837.0,
+            "stop": 2837.0,
+            "subject": "Social reform and policies"
+        },
+        {
+            "id": "KJC510",
+            "parents": [
+                "KJC2-9799",
+                "KJC480-650"
+            ],
+            "prefix": "KJC",
+            "start": 510.0,
+            "stop": 510.0,
+            "subject": "Eastern Europe"
+        },
+        {
+            "id": "KJC4431-4435.8",
+            "parents": [
+                "KJC2-9799",
+                "KJC4431-5456"
+            ],
+            "prefix": "KJC",
+            "start": 4431.0,
+            "stop": 4435.8,
+            "subject": "Constitutional history.    Feudal law"
+        },
+        {
+            "id": "KJC7098-7346",
+            "parents": [
+                "KJC2-9799",
+                "KJC7049-7495"
+            ],
+            "prefix": "KJC",
+            "start": 7098.0,
+            "stop": 7346.0,
+            "subject": "National revenue"
+        },
+        {
+            "id": "KJC9799",
+            "parents": [
+                "KJC2-9799",
+                "KJC9400-9799"
+            ],
+            "prefix": "KJC",
+            "start": 9799.0,
+            "stop": 9799.0,
+            "subject": "Victimology"
+        },
+        {
+            "id": "KJC5520-5527",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 5520.0,
+            "stop": 5527.0,
+            "subject": "Secular ecclesiastical law"
+        },
+        {
+            "id": "KJC955-956",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 955.0,
+            "stop": 956.0,
+            "subject": "Private law"
+        },
+        {
+            "id": "KJC2301-2428",
+            "parents": [
+                "KJC2-9799",
+                "KJC2041-2635"
+            ],
+            "prefix": "KJC",
+            "start": 2301.0,
+            "stop": 2428.0,
+            "subject": "Insurance law"
+        },
+        {
+            "id": "KJC2799-2830",
+            "parents": [
+                "KJC2-9799",
+                "KJC2636-2830"
+            ],
+            "prefix": "KJC",
+            "start": 2799.0,
+            "stop": 2830.0,
+            "subject": "Unfair competition"
+        },
+        {
+            "id": "KJC1410-1437",
+            "parents": [
+                "KJC2-9799",
+                "KJC981-1905",
+                "KJC1251-1437"
+            ],
+            "prefix": "KJC",
+            "start": 1410.0,
+            "stop": 1437.0,
+            "subject": "Land register and registration"
         },
         {
             "id": "KJC9400-9799",
@@ -50306,6 +50111,115 @@
             "start": 9400.0,
             "stop": 9799.0,
             "subject": "Criminal courts and procedure"
+        },
+        {
+            "id": "KJC957-979",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 957.0,
+            "stop": 979.0,
+            "subject": "Private international law"
+        },
+        {
+            "id": "KJC7312-7346",
+            "parents": [
+                "KJC2-9799",
+                "KJC7049-7495",
+                "KJC7098-7346"
+            ],
+            "prefix": "KJC",
+            "start": 7312.0,
+            "stop": 7346.0,
+            "subject": "Customs.    Tariff"
+        },
+        {
+            "id": "KJC383-430",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 383.0,
+            "stop": 430.0,
+            "subject": "Philosophy, jurisprudence, and theory of European law"
+        },
+        {
+            "id": "KJC3704-3791",
+            "parents": [
+                "KJC2-9799",
+                "KJC3655-4152"
+            ],
+            "prefix": "KJC",
+            "start": 3704.0,
+            "stop": 3791.0,
+            "subject": "The legal profession"
+        },
+        {
+            "id": "KJC6946-7002",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 6946.0,
+            "stop": 7002.0,
+            "subject": "Communication.    mass media"
+        },
+        {
+            "id": "KJC6695-6697",
+            "parents": [
+                "KJC2-9799",
+                "KJC6411-6858",
+                "KJC6569-6830"
+            ],
+            "prefix": "KJC",
+            "start": 6695.0,
+            "stop": 6697.0,
+            "subject": "Fisheries"
+        },
+        {
+            "id": "KJC2041-2635",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 2041.0,
+            "stop": 2635.0,
+            "subject": "Commercial law"
+        },
+        {
+            "id": "KJC5105-5112",
+            "parents": [
+                "KJC2-9799",
+                "KJC4431-5456"
+            ],
+            "prefix": "KJC",
+            "start": 5105.0,
+            "stop": 5112.0,
+            "subject": "Foreign relations"
+        },
+        {
+            "id": "KJC6791-6795",
+            "parents": [
+                "KJC2-9799",
+                "KJC6411-6858",
+                "KJC6569-6830"
+            ],
+            "prefix": "KJC",
+            "start": 6791.0,
+            "stop": 6795.0,
+            "subject": "International trade"
+        },
+        {
+            "id": "KJC3350-3374",
+            "parents": [
+                "KJC2-9799",
+                "KJC3271-3428"
+            ],
+            "prefix": "KJC",
+            "start": 3350.0,
+            "stop": 3374.0,
+            "subject": "Workers compensation"
         },
         {
             "id": "KJC1491-1905",
@@ -50330,75 +50244,16 @@
             "subject": "Freight forwarders and carriers"
         },
         {
-            "id": "KJC7049-7495",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 7049.0,
-            "stop": 7495.0,
-            "subject": "Public finance"
-        },
-        {
-            "id": "KJC7962-9380",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 7962.0,
-            "stop": 9380.0,
-            "subject": "Criminal law"
-        },
-        {
-            "id": "KJC7690-7925",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 7690.0,
-            "stop": 7925.0,
-            "subject": "National defense.    Military law"
-        },
-        {
-            "id": "KJC2836-2839",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 2836.0,
-            "stop": 2839.0,
-            "subject": "Social legislation"
-        },
-        {
-            "id": "KJC2150-2173",
+            "id": "KJC2448-2553",
             "parents": [
                 "KJC2-9799",
-                "KJC2041-2635"
+                "KJC2041-2635",
+                "KJC2432-2635"
             ],
             "prefix": "KJC",
-            "start": 2150.0,
-            "stop": 2173.0,
-            "subject": "Negotiable instruments"
-        },
-        {
-            "id": "KJC4175-4353",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 4175.0,
-            "stop": 4353.0,
-            "subject": "Insolvency.    Bankruptcy"
-        },
-        {
-            "id": "KJC383-430",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 383.0,
-            "stop": 430.0,
-            "subject": "Philosophy, jurisprudence, and theory of European law"
+            "start": 2448.0,
+            "stop": 2553.0,
+            "subject": "Stock companies.    Incorporated business"
         },
         {
             "id": "KJC7032-7047",
@@ -50411,16 +50266,295 @@
             "subject": "Professions"
         },
         {
-            "id": "KJC2635",
+            "id": "KJC4175-4353",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 4175.0,
+            "stop": 4353.0,
+            "subject": "Insolvency.    Bankruptcy"
+        },
+        {
+            "id": "KJC6242-6256",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 6242.0,
+            "stop": 6256.0,
+            "subject": "Environmental law"
+        },
+        {
+            "id": "KJC3431-3570",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 3431.0,
+            "stop": 3570.0,
+            "subject": "Social services.    Public welfare"
+        },
+        {
+            "id": "KJC7350-7358",
+            "parents": [
+                "KJC2-9799",
+                "KJC7049-7495"
+            ],
+            "prefix": "KJC",
+            "start": 7350.0,
+            "stop": 7358.0,
+            "subject": "State and local finance"
+        },
+        {
+            "id": "KJC600",
+            "parents": [
+                "KJC2-9799",
+                "KJC480-650"
+            ],
+            "prefix": "KJC",
+            "start": 600.0,
+            "stop": 600.0,
+            "subject": "Southeastern Europe.    Balkan Peninsula"
+        },
+        {
+            "id": "KJC1263-1312",
+            "parents": [
+                "KJC2-9799",
+                "KJC981-1905",
+                "KJC1251-1437"
+            ],
+            "prefix": "KJC",
+            "start": 1263.0,
+            "stop": 1312.0,
+            "subject": "Possession.    Ownership"
+        },
+        {
+            "id": "KJC8230-8338",
+            "parents": [
+                "KJC2-9799",
+                "KJC7962-9380"
+            ],
+            "prefix": "KJC",
+            "start": 8230.0,
+            "stop": 8338.0,
+            "subject": "Punishment"
+        },
+        {
+            "id": "KJC3421-3428",
+            "parents": [
+                "KJC2-9799",
+                "KJC3271-3428"
+            ],
+            "prefix": "KJC",
+            "start": 3421.0,
+            "stop": 3428.0,
+            "subject": "Unemployment insurance"
+        },
+        {
+            "id": "KJC2435-2446",
             "parents": [
                 "KJC2-9799",
                 "KJC2041-2635",
                 "KJC2432-2635"
             ],
             "prefix": "KJC",
-            "start": 2635.0,
-            "stop": 2635.0,
-            "subject": "Government ownership.    Nationalization"
+            "start": 2435.0,
+            "stop": 2446.0,
+            "subject": "Personal companies.    Unincorporated business"
+        },
+        {
+            "id": "KJC4413-4428",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 4413.0,
+            "stop": 4428.0,
+            "subject": "Public law.    The State"
+        },
+        {
+            "id": "KJC2636-2830",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 2636.0,
+            "stop": 2830.0,
+            "subject": "Intellectual and industrial property"
+        },
+        {
+            "id": "KJC5119-5207",
+            "parents": [
+                "KJC2-9799",
+                "KJC4431-5456"
+            ],
+            "prefix": "KJC",
+            "start": 5119.0,
+            "stop": 5207.0,
+            "subject": "Individual and state"
+        },
+        {
+            "id": "KJC7097",
+            "parents": [
+                "KJC2-9799",
+                "KJC7049-7495"
+            ],
+            "prefix": "KJC",
+            "start": 7097.0,
+            "stop": 7097.0,
+            "subject": "International capital movement regulation"
+        },
+        {
+            "id": "KJC1010-1098",
+            "parents": [
+                "KJC2-9799",
+                "KJC981-1905"
+            ],
+            "prefix": "KJC",
+            "start": 1010.0,
+            "stop": 1098.0,
+            "subject": "Concepts and principles"
+        },
+        {
+            "id": "KJC3655-4152",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 3655.0,
+            "stop": 4152.0,
+            "subject": "Courts and procedure"
+        },
+        {
+            "id": "KJC6456-6497",
+            "parents": [
+                "KJC2-9799",
+                "KJC6411-6858"
+            ],
+            "prefix": "KJC",
+            "start": 6456.0,
+            "stop": 6497.0,
+            "subject": "Competition rules"
+        },
+        {
+            "id": "KJC2256-2289",
+            "parents": [
+                "KJC2-9799",
+                "KJC2041-2635"
+            ],
+            "prefix": "KJC",
+            "start": 2256.0,
+            "stop": 2289.0,
+            "subject": "Maritime law"
+        },
+        {
+            "id": "KJC3271-3428",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 3271.0,
+            "stop": 3428.0,
+            "subject": "Social insurance"
+        },
+        {
+            "id": "KJC1382-1398",
+            "parents": [
+                "KJC2-9799",
+                "KJC981-1905",
+                "KJC1251-1437"
+            ],
+            "prefix": "KJC",
+            "start": 1382.0,
+            "stop": 1398.0,
+            "subject": "Pledges"
+        },
+        {
+            "id": "KJC1640-1716",
+            "parents": [
+                "KJC2-9799",
+                "KJC981-1905",
+                "KJC1491-1905"
+            ],
+            "prefix": "KJC",
+            "start": 1640.0,
+            "stop": 1716.0,
+            "subject": "Delicts.    Torts"
+        },
+        {
+            "id": "KJC3056-3097",
+            "parents": [
+                "KJC2-9799",
+                "KJC2849-3215"
+            ],
+            "prefix": "KJC",
+            "start": 3056.0,
+            "stop": 3097.0,
+            "subject": "Collective bargaining and labor agreements"
+        },
+        {
+            "id": "KJC630",
+            "parents": [
+                "KJC2-9799",
+                "KJC480-650"
+            ],
+            "prefix": "KJC",
+            "start": 630.0,
+            "stop": 630.0,
+            "subject": "Southern Europe"
+        },
+        {
+            "id": "KJC3811-4024",
+            "parents": [
+                "KJC2-9799",
+                "KJC3655-4152"
+            ],
+            "prefix": "KJC",
+            "start": 3811.0,
+            "stop": 4024.0,
+            "subject": "Civil procedure"
+        },
+        {
+            "id": "KJC3140-3189",
+            "parents": [
+                "KJC2-9799",
+                "KJC2849-3215"
+            ],
+            "prefix": "KJC",
+            "start": 3140.0,
+            "stop": 3189.0,
+            "subject": "Protection of labor"
+        },
+        {
+            "id": "KJC6257-6405",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 6257.0,
+            "stop": 6405.0,
+            "subject": "Cultural affairs.    Education"
+        },
+        {
+            "id": "KJC3575",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 3575.0,
+            "stop": 3575.0,
+            "subject": "Birth control.    Family planning.    Population control"
+        },
+        {
+            "id": "KJC7520-7521",
+            "parents": [
+                "KJC2-9799"
+            ],
+            "prefix": "KJC",
+            "start": 7520.0,
+            "stop": 7521.0,
+            "subject": "Government measures in time of war, national"
         },
         {
             "id": "KJC1360-1378",
@@ -50433,70 +50567,6 @@
             "start": 1360.0,
             "stop": 1378.0,
             "subject": "Hypothecation"
-        },
-        {
-            "id": "KJC6700-6720",
-            "parents": [
-                "KJC2-9799",
-                "KJC6411-6858",
-                "KJC6569-6830"
-            ],
-            "prefix": "KJC",
-            "start": 6700.0,
-            "stop": 6720.0,
-            "subject": "Mining.    Quarrying"
-        },
-        {
-            "id": "KJC480-650",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 480.0,
-            "stop": 650.0,
-            "subject": "Regional divisions.    Subregions"
-        },
-        {
-            "id": "KJC530-574",
-            "parents": [
-                "KJC2-9799",
-                "KJC480-650"
-            ],
-            "prefix": "KJC",
-            "start": 530.0,
-            "stop": 574.0,
-            "subject": "Northern Europe.    Scandinavia"
-        },
-        {
-            "id": "KJC2041-2635",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 2041.0,
-            "stop": 2635.0,
-            "subject": "Commercial law"
-        },
-        {
-            "id": "KJC5977-6063",
-            "parents": [
-                "KJC2-9799"
-            ],
-            "prefix": "KJC",
-            "start": 5977.0,
-            "stop": 6063.0,
-            "subject": "Police and public safety"
-        },
-        {
-            "id": "KJC7095",
-            "parents": [
-                "KJC2-9799",
-                "KJC7049-7495"
-            ],
-            "prefix": "KJC",
-            "start": 7095.0,
-            "stop": 7095.0,
-            "subject": "Foreign exchange regulation"
         },
         {
             "id": "KJC2655-2700",
@@ -50524,174 +50594,6 @@
             "subject": "Food processing industries"
         },
         {
-            "id": "KJE915-924",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 915.0,
-            "stop": 924.0,
-            "subject": "Official acts"
-        },
-        {
-            "id": "KJE6242-6253",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6242.0,
-            "stop": 6253.0,
-            "subject": "Environmental law"
-        },
-        {
-            "id": "KJE888-889.6",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 888.0,
-            "stop": 889.6,
-            "subject": "Transportation"
-        },
-        {
-            "id": "KJE5174",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520",
-                "KJE5124-5240",
-                "KJE5132-5202",
-                "KJE5149-5202"
-            ],
-            "prefix": "KJE",
-            "start": 5174.0,
-            "stop": 5174.0,
-            "subject": "Right of establishment and freedom to"
-        },
-        {
-            "id": "KJE9401-9570",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 9401.0,
-            "stop": 9570.0,
-            "subject": "Criminal courts and procedure"
-        },
-        {
-            "id": "KJE991-1868",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 991.0,
-            "stop": 1868.0,
-            "subject": "Civil law"
-        },
-        {
-            "id": "KJE2981-3022",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE2851-3199"
-            ],
-            "prefix": "KJE",
-            "start": 2981.0,
-            "stop": 3022.0,
-            "subject": "Labor-management relations"
-        },
-        {
-            "id": "KJE6456-6533",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6411-6554",
-                "KJE6428-6537"
-            ],
-            "prefix": "KJE",
-            "start": 6456.0,
-            "stop": 6533.0,
-            "subject": "Control of contracts and combinations in"
-        },
-        {
-            "id": "KJE350-399",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897"
-            ],
-            "prefix": "KJE",
-            "start": 350.0,
-            "stop": 399.0,
-            "subject": "European Fund"
-        },
-        {
-            "id": "KJE6739-6777",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6569-6830"
-            ],
-            "prefix": "KJE",
-            "start": 6739.0,
-            "stop": 6777.0,
-            "subject": "Manufacturing industries"
-        },
-        {
-            "id": "KJE833",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897",
-                "KJE833-838.8"
-            ],
-            "prefix": "KJE",
-            "start": 833.0,
-            "stop": 833.0,
-            "subject": "Treaties establishing and expanding the"
-        },
-        {
-            "id": "KJE6871-6900",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6868-6939"
-            ],
-            "prefix": "KJE",
-            "start": 6871.0,
-            "stop": 6900.0,
-            "subject": "Road traffic.    Traffic regulations and enforcement"
-        },
-        {
-            "id": "KJE890-891.22",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 890.0,
-            "stop": 891.22,
-            "subject": "Communication.    Mass media.    Information"
-        },
-        {
-            "id": "KJE5057-5062",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520"
-            ],
-            "prefix": "KJE",
-            "start": 5057.0,
-            "stop": 5062.0,
-            "subject": "Sources and relationships of the law"
-        },
-        {
             "id": "KJE980",
             "parents": [
                 "KJE5-9570",
@@ -50703,71 +50605,28 @@
             "subject": "Private law"
         },
         {
-            "id": "KJE5124-5240",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520"
-            ],
-            "prefix": "KJE",
-            "start": 5124.0,
-            "stop": 5240.0,
-            "subject": "Individual and Communities"
-        },
-        {
-            "id": "KJE857-859",
+            "id": "KJE839-842.4",
             "parents": [
                 "KJE5-9570",
                 "KJE10-897",
-                "KJE801-897",
-                "KJE856-887.7"
+                "KJE801-897"
             ],
             "prefix": "KJE",
-            "start": 857.0,
-            "stop": 859.0,
-            "subject": "Central planning.    Plan coordination"
+            "start": 839.0,
+            "stop": 842.4,
+            "subject": "Organs and institutions of the Council"
         },
         {
-            "id": "KJE801-897",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897"
-            ],
-            "prefix": "KJE",
-            "start": 801.0,
-            "stop": 897.0,
-            "subject": "Council for Mutual Economic Assistance (COMECON)"
-        },
-        {
-            "id": "KJE6132-6155",
+            "id": "KJE7076-7083",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
-                "KJE6068-6160"
+                "KJE7050-7475"
             ],
             "prefix": "KJE",
-            "start": 6132.0,
-            "stop": 6155.0,
-            "subject": "Public land law.    Land use.    Regional policy"
-        },
-        {
-            "id": "KJE3655-4175",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 3655.0,
-            "stop": 4175.0,
-            "subject": "Courts and procedure"
-        },
-        {
-            "id": "KJE5-9570",
-            "parents": [],
-            "prefix": "KJE",
-            "start": 5.0,
-            "stop": 9570.0,
-            "subject": "Regional organization and integration (Europe)"
+            "start": 7076.0,
+            "stop": 7083.0,
+            "subject": "Budget"
         },
         {
             "id": "KJE5149-5202",
@@ -50784,92 +50643,15 @@
             "subject": "Freedom"
         },
         {
-            "id": "KJE5075-5094",
+            "id": "KJE2851-3199",
             "parents": [
                 "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520"
+                "KJE901-9570"
             ],
             "prefix": "KJE",
-            "start": 5075.0,
-            "stop": 5094.0,
-            "subject": "Intergovernmental (Internal) relations."
-        },
-        {
-            "id": "KJE5109-5112",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520",
-                "KJE5105-5113"
-            ],
-            "prefix": "KJE",
-            "start": 5109.0,
-            "stop": 5112.0,
-            "subject": "Relations with non-member states"
-        },
-        {
-            "id": "KJE822-822.7",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 822.0,
-            "stop": 822.7,
-            "subject": "Theory and methodology of socialist economic law"
-        },
-        {
-            "id": "KJE5170",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520",
-                "KJE5124-5240",
-                "KJE5132-5202",
-                "KJE5149-5202"
-            ],
-            "prefix": "KJE",
-            "start": 5170.0,
-            "stop": 5170.0,
-            "subject": "Free movement of workers"
-        },
-        {
-            "id": "KJE6577-6578.5",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6569-6830"
-            ],
-            "prefix": "KJE",
-            "start": 6577.0,
-            "stop": 6578.5,
-            "subject": "Consumer protection"
-        },
-        {
-            "id": "KJE6266-6321",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6257-6405"
-            ],
-            "prefix": "KJE",
-            "start": 6266.0,
-            "stop": 6321.0,
-            "subject": "Education"
-        },
-        {
-            "id": "KJE6601-6651",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6569-6830"
-            ],
-            "prefix": "KJE",
-            "start": 6601.0,
-            "stop": 6651.0,
-            "subject": "Agriculture.    Agricultural policy"
+            "start": 2851.0,
+            "stop": 3199.0,
+            "subject": "Labor law"
         },
         {
             "id": "KJE6353-6361",
@@ -50882,40 +50664,6 @@
             "start": 6353.0,
             "stop": 6361.0,
             "subject": "The arts"
-        },
-        {
-            "id": "KJE4441-5520",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 4441.0,
-            "stop": 5520.0,
-            "subject": "Organization law.    Constitution of the European"
-        },
-        {
-            "id": "KJE7690",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 7690.0,
-            "stop": 7690.0,
-            "subject": "Military law.    Defense"
-        },
-        {
-            "id": "KJE7005",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6946-7010"
-            ],
-            "prefix": "KJE",
-            "start": 7005.0,
-            "stop": 7005.0,
-            "subject": "Press law"
         },
         {
             "id": "KJE2301-2429",
@@ -50941,29 +50689,6 @@
             "subject": "Civil service"
         },
         {
-            "id": "KJE2041-2635",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 2041.0,
-            "stop": 2635.0,
-            "subject": "Commercial law"
-        },
-        {
-            "id": "KJE856-887.7",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 856.0,
-            "stop": 887.7,
-            "subject": "Economic law"
-        },
-        {
             "id": "KJE3140-3190",
             "parents": [
                 "KJE5-9570",
@@ -50976,27 +50701,783 @@
             "subject": "Protection of labor"
         },
         {
-            "id": "KJE6247-6253",
+            "id": "KJE6976-6995",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6946-7010"
+            ],
+            "prefix": "KJE",
+            "start": 6976.0,
+            "stop": 6995.0,
+            "subject": "Radio and television communication"
+        },
+        {
+            "id": "KJE6442",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6411-6554",
+                "KJE6428-6537"
+            ],
+            "prefix": "KJE",
+            "start": 6442.0,
+            "stop": 6442.0,
+            "subject": "Prices and price control"
+        },
+        {
+            "id": "KJE874-887.7",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897",
+                "KJE856-887.7"
+            ],
+            "prefix": "KJE",
+            "start": 874.0,
+            "stop": 887.7,
+            "subject": "Particular industries or sectors"
+        },
+        {
+            "id": "KJE960-974",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 960.0,
+            "stop": 974.0,
+            "subject": "Theory and methodology of uniform law"
+        },
+        {
+            "id": "KJE2256-2289",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE2041-2635"
+            ],
+            "prefix": "KJE",
+            "start": 2256.0,
+            "stop": 2289.0,
+            "subject": "Maritime law"
+        },
+        {
+            "id": "KJE844-844.8",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 844.0,
+            "stop": 844.8,
+            "subject": "Civil service"
+        },
+        {
+            "id": "KJE5175-5177",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520",
+                "KJE5124-5240",
+                "KJE5132-5202",
+                "KJE5149-5202"
+            ],
+            "prefix": "KJE",
+            "start": 5175.0,
+            "stop": 5177.0,
+            "subject": "Free movement of capital.    Free movement"
+        },
+        {
+            "id": "KJE7010",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6946-7010"
+            ],
+            "prefix": "KJE",
+            "start": 7010.0,
+            "stop": 7010.0,
+            "subject": "Information services.    Databases"
+        },
+        {
+            "id": "KJE5977-6063",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 5977.0,
+            "stop": 6063.0,
+            "subject": "Police and public safety"
+        },
+        {
+            "id": "KJE5075-5094",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520"
+            ],
+            "prefix": "KJE",
+            "start": 5075.0,
+            "stop": 5094.0,
+            "subject": "Intergovernmental (Internal) relations."
+        },
+        {
+            "id": "KJE3281-3418",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE3271-3448"
+            ],
+            "prefix": "KJE",
+            "start": 3281.0,
+            "stop": 3418.0,
+            "subject": "Social insurance.    Social security"
+        },
+        {
+            "id": "KJE6903",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6868-6939"
+            ],
+            "prefix": "KJE",
+            "start": 6903.0,
+            "stop": 6903.0,
+            "subject": "Railroads"
+        },
+        {
+            "id": "KJE3655-4175",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 3655.0,
+            "stop": 4175.0,
+            "subject": "Courts and procedure"
+        },
+        {
+            "id": "KJE850-853",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 850.0,
+            "stop": 853.0,
+            "subject": "Environmental law"
+        },
+        {
+            "id": "KJE827-828.5",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 827.0,
+            "stop": 828.5,
+            "subject": "Intellectual and industrial property"
+        },
+        {
+            "id": "KJE833-838.8",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 833.0,
+            "stop": 838.8,
+            "subject": "Organization law.    Constitution of the Council of"
+        },
+        {
+            "id": "KJE6405",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6257-6405"
+            ],
+            "prefix": "KJE",
+            "start": 6405.0,
+            "stop": 6405.0,
+            "subject": "Historic buildings and monuments"
+        },
+        {
+            "id": "KJE5089-5092",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520",
+                "KJE5075-5094"
+            ],
+            "prefix": "KJE",
+            "start": 5089.0,
+            "stop": 5092.0,
+            "subject": "Accession of new member states.    Adhesion"
+        },
+        {
+            "id": "KJE6799-6825",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6569-6830"
+            ],
+            "prefix": "KJE",
+            "start": 6799.0,
+            "stop": 6825.0,
+            "subject": "Domestic trade.    Wholesale and retail trade"
+        },
+        {
+            "id": "KJE901-9570",
+            "parents": [
+                "KJE5-9570"
+            ],
+            "prefix": "KJE",
+            "start": 901.0,
+            "stop": 9570.0,
+            "subject": "The European Communities.    Community law"
+        },
+        {
+            "id": "KJE5132-5202",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520",
+                "KJE5124-5240"
+            ],
+            "prefix": "KJE",
+            "start": 5132.0,
+            "stop": 5202.0,
+            "subject": "Human rights.    Civil and political rights"
+        },
+        {
+            "id": "KJE2636-2777",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 2636.0,
+            "stop": 2777.0,
+            "subject": "Intellectual and industrial property"
+        },
+        {
+            "id": "KJE5305-5520",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520"
+            ],
+            "prefix": "KJE",
+            "start": 5305.0,
+            "stop": 5520.0,
+            "subject": "Community institutions and organs"
+        },
+        {
+            "id": "KJE888-889.6",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 888.0,
+            "stop": 889.6,
+            "subject": "Transportation"
+        },
+        {
+            "id": "KJE7050-7475",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 7050.0,
+            "stop": 7475.0,
+            "subject": "Financial provisions"
+        },
+        {
+            "id": "KJE5174",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520",
+                "KJE5124-5240",
+                "KJE5132-5202",
+                "KJE5149-5202"
+            ],
+            "prefix": "KJE",
+            "start": 5174.0,
+            "stop": 5174.0,
+            "subject": "Right of establishment and freedom to"
+        },
+        {
+            "id": "KJE5170",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520",
+                "KJE5124-5240",
+                "KJE5132-5202",
+                "KJE5149-5202"
+            ],
+            "prefix": "KJE",
+            "start": 5170.0,
+            "stop": 5170.0,
+            "subject": "Free movement of workers"
+        },
+        {
+            "id": "KJE2981-3022",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE2851-3199"
+            ],
+            "prefix": "KJE",
+            "start": 2981.0,
+            "stop": 3022.0,
+            "subject": "Labor-management relations"
+        },
+        {
+            "id": "KJE890-891.22",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 890.0,
+            "stop": 891.22,
+            "subject": "Communication.    Mass media.    Information"
+        },
+        {
+            "id": "KJE9401-9570",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 9401.0,
+            "stop": 9570.0,
+            "subject": "Criminal courts and procedure"
+        },
+        {
+            "id": "KJE6433-6434",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6411-6554",
+                "KJE6428-6537"
+            ],
+            "prefix": "KJE",
+            "start": 6433.0,
+            "stop": 6434.0,
+            "subject": "Investments"
+        },
+        {
+            "id": "KJE5272-5291",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520"
+            ],
+            "prefix": "KJE",
+            "start": 5272.0,
+            "stop": 5291.0,
+            "subject": "Election law"
+        },
+        {
+            "id": "KJE6068-6160",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 6068.0,
+            "stop": 6160.0,
+            "subject": "Public property.    Public restraint on private property"
+        },
+        {
+            "id": "KJE887",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897",
+                "KJE856-887.7",
+                "KJE874-887.7"
+            ],
+            "prefix": "KJE",
+            "start": 887.0,
+            "stop": 887.0,
+            "subject": "External trade.    Trade with non-member"
+        },
+        {
+            "id": "KJE5602-5793",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 5602.0,
+            "stop": 5793.0,
+            "subject": "Administrative law and process"
+        },
+        {
+            "id": "KJE5-9570",
+            "parents": [],
+            "prefix": "KJE",
+            "start": 5.0,
+            "stop": 9570.0,
+            "subject": "Regional organization and integration (Europe)"
+        },
+        {
+            "id": "KJE6411-6554",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 6411.0,
+            "stop": 6554.0,
+            "subject": "Economic law"
+        },
+        {
+            "id": "KJE854-854.8",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 854.0,
+            "stop": 854.8,
+            "subject": "Scientific-technical cooperation"
+        },
+        {
+            "id": "KJE969-974",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE960-974"
+            ],
+            "prefix": "KJE",
+            "start": 969.0,
+            "stop": 974.0,
+            "subject": "Community law and municipal law"
+        },
+        {
+            "id": "KJE7059-7062",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE7050-7475"
+            ],
+            "prefix": "KJE",
+            "start": 7059.0,
+            "stop": 7062.0,
+            "subject": "Foreign exchange policy"
+        },
+        {
+            "id": "KJE829-829.5",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 829.0,
+            "stop": 829.5,
+            "subject": "Labor law"
+        },
+        {
+            "id": "KJE7971-8643",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 7971.0,
+            "stop": 8643.0,
+            "subject": "Criminal law"
+        },
+        {
+            "id": "KJE991-1868",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 991.0,
+            "stop": 1868.0,
+            "subject": "Civil law"
+        },
+        {
+            "id": "KJE2432-2635",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE2041-2635"
+            ],
+            "prefix": "KJE",
+            "start": 2432.0,
+            "stop": 2635.0,
+            "subject": "Business associations"
+        },
+        {
+            "id": "KJE3195-3199",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE2851-3199"
+            ],
+            "prefix": "KJE",
+            "start": 3195.0,
+            "stop": 3199.0,
+            "subject": "Labor supply.    Manpower policy"
+        },
+        {
+            "id": "KJE6868-6939",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 6868.0,
+            "stop": 6939.0,
+            "subject": "Transportation.    Common transportation policy"
+        },
+        {
+            "id": "KJE864-865",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897",
+                "KJE856-887.7"
+            ],
+            "prefix": "KJE",
+            "start": 864.0,
+            "stop": 865.0,
+            "subject": "Prices and price control"
+        },
+        {
+            "id": "KJE846-847.5",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 846.0,
+            "stop": 847.5,
+            "subject": "Socialist public property.    Public restraint on private"
+        },
+        {
+            "id": "KJE867-869",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897",
+                "KJE856-887.7"
+            ],
+            "prefix": "KJE",
+            "start": 867.0,
+            "stop": 869.0,
+            "subject": "Government business enterprises"
+        },
+        {
+            "id": "KJE6791-6795",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6569-6830"
+            ],
+            "prefix": "KJE",
+            "start": 6791.0,
+            "stop": 6795.0,
+            "subject": "External trade"
+        },
+        {
+            "id": "KJE7005",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6946-7010"
+            ],
+            "prefix": "KJE",
+            "start": 7005.0,
+            "stop": 7005.0,
+            "subject": "Press law"
+        },
+        {
+            "id": "KJE833",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897",
+                "KJE833-838.8"
+            ],
+            "prefix": "KJE",
+            "start": 833.0,
+            "stop": 833.0,
+            "subject": "Treaties establishing and expanding the"
+        },
+        {
+            "id": "KJE830",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 830.0,
+            "stop": 830.0,
+            "subject": "Arbitration tribunals.    Procedures"
+        },
+        {
+            "id": "KJE893-897",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 893.0,
+            "stop": 897.0,
+            "subject": "Finance.    Money.    Customs.    Tariff"
+        },
+        {
+            "id": "KJE2041-2635",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 2041.0,
+            "stop": 2635.0,
+            "subject": "Commercial law"
+        },
+        {
+            "id": "KJE50-99",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897"
+            ],
+            "prefix": "KJE",
+            "start": 50.0,
+            "stop": 99.0,
+            "subject": "Western European Union"
+        },
+        {
+            "id": "KJE5109-5112",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520",
+                "KJE5105-5113"
+            ],
+            "prefix": "KJE",
+            "start": 5109.0,
+            "stop": 5112.0,
+            "subject": "Relations with non-member states"
+        },
+        {
+            "id": "KJE6245",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
                 "KJE6242-6253"
             ],
             "prefix": "KJE",
-            "start": 6247.0,
-            "stop": 6253.0,
-            "subject": "Environmental pollution"
+            "start": 6245.0,
+            "stop": 6245.0,
+            "subject": "Environmental planning and protection."
         },
         {
-            "id": "KJE300-349",
+            "id": "KJE2188-2255",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE2041-2635"
+            ],
+            "prefix": "KJE",
+            "start": 2188.0,
+            "stop": 2255.0,
+            "subject": "Financial institutions.    Banking.    Stock exchange"
+        },
+        {
+            "id": "KJE6456-6533",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6411-6554",
+                "KJE6428-6537"
+            ],
+            "prefix": "KJE",
+            "start": 6456.0,
+            "stop": 6533.0,
+            "subject": "Control of contracts and combinations in"
+        },
+        {
+            "id": "KJE6132-6155",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6068-6160"
+            ],
+            "prefix": "KJE",
+            "start": 6132.0,
+            "stop": 6155.0,
+            "subject": "Public land law.    Land use.    Regional policy"
+        },
+        {
+            "id": "KJE7098-7475",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE7050-7475"
+            ],
+            "prefix": "KJE",
+            "start": 7098.0,
+            "stop": 7475.0,
+            "subject": "Revenue.    Taxation.    Customs.    Tariff"
+        },
+        {
+            "id": "KJE550-599",
             "parents": [
                 "KJE5-9570",
                 "KJE10-897"
             ],
             "prefix": "KJE",
-            "start": 300.0,
-            "stop": 349.0,
-            "subject": "European Payment Union"
+            "start": 550.0,
+            "stop": 599.0,
+            "subject": "European Free Trade Association"
+        },
+        {
+            "id": "KJE7690",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 7690.0,
+            "stop": 7690.0,
+            "subject": "Military law.    Defense"
+        },
+        {
+            "id": "KJE856-887.7",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 856.0,
+            "stop": 887.7,
+            "subject": "Economic law"
         },
         {
             "id": "KJE5105-5113",
@@ -51034,149 +51515,7 @@
             "subject": "Regulation of industry, trade, and commerce"
         },
         {
-            "id": "KJE550-599",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897"
-            ],
-            "prefix": "KJE",
-            "start": 550.0,
-            "stop": 599.0,
-            "subject": "European Free Trade Association"
-        },
-        {
-            "id": "KJE6442",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6411-6554",
-                "KJE6428-6537"
-            ],
-            "prefix": "KJE",
-            "start": 6442.0,
-            "stop": 6442.0,
-            "subject": "Prices and price control"
-        },
-        {
-            "id": "KJE887",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897",
-                "KJE856-887.7",
-                "KJE874-887.7"
-            ],
-            "prefix": "KJE",
-            "start": 887.0,
-            "stop": 887.0,
-            "subject": "External trade.    Trade with non-member"
-        },
-        {
-            "id": "KJE960-974",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 960.0,
-            "stop": 974.0,
-            "subject": "Theory and methodology of uniform law"
-        },
-        {
-            "id": "KJE887.5-887.7",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897",
-                "KJE856-887.7",
-                "KJE874-887.7"
-            ],
-            "prefix": "KJE",
-            "start": 887.5,
-            "stop": 887.7,
-            "subject": "Domestic trade.    Intra-COMECON trade"
-        },
-        {
-            "id": "KJE2256-2289",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE2041-2635"
-            ],
-            "prefix": "KJE",
-            "start": 2256.0,
-            "stop": 2289.0,
-            "subject": "Maritime law"
-        },
-        {
-            "id": "KJE7076-7083",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE7050-7475"
-            ],
-            "prefix": "KJE",
-            "start": 7076.0,
-            "stop": 7083.0,
-            "subject": "Budget"
-        },
-        {
-            "id": "KJE901-9570",
-            "parents": [
-                "KJE5-9570"
-            ],
-            "prefix": "KJE",
-            "start": 901.0,
-            "stop": 9570.0,
-            "subject": "The European Communities.    Community law"
-        },
-        {
-            "id": "KJE10-897",
-            "parents": [
-                "KJE5-9570"
-            ],
-            "prefix": "KJE",
-            "start": 10.0,
-            "stop": 897.0,
-            "subject": "Regional organization other than the European"
-        },
-        {
-            "id": "KJE3271-3448",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 3271.0,
-            "stop": 3448.0,
-            "subject": "Social legislation"
-        },
-        {
-            "id": "KJE844-844.8",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 844.0,
-            "stop": 844.8,
-            "subject": "Civil service"
-        },
-        {
-            "id": "KJE2188-2255",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE2041-2635"
-            ],
-            "prefix": "KJE",
-            "start": 2188.0,
-            "stop": 2255.0,
-            "subject": "Financial institutions.    Banking.    Stock exchange"
-        },
-        {
-            "id": "KJE5132-5202",
+            "id": "KJE5124",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
@@ -51184,279 +51523,33 @@
                 "KJE5124-5240"
             ],
             "prefix": "KJE",
-            "start": 5132.0,
-            "stop": 5202.0,
-            "subject": "Human rights.    Civil and political rights"
+            "start": 5124.0,
+            "stop": 5124.0,
+            "subject": "Nationality and citizenship"
         },
         {
-            "id": "KJE6411-6554",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6411.0,
-            "stop": 6554.0,
-            "subject": "Economic law"
-        },
-        {
-            "id": "KJE3431-3448",
+            "id": "KJE6739-6777",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
-                "KJE3271-3448"
+                "KJE6569-6830"
             ],
             "prefix": "KJE",
-            "start": 3431.0,
-            "stop": 3448.0,
-            "subject": "Social services.    Public welfare"
+            "start": 6739.0,
+            "stop": 6777.0,
+            "subject": "Manufacturing industries"
         },
         {
-            "id": "KJE839-842.4",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 839.0,
-            "stop": 842.4,
-            "subject": "Organs and institutions of the Council"
-        },
-        {
-            "id": "KJE854-854.8",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 854.0,
-            "stop": 854.8,
-            "subject": "Scientific-technical cooperation"
-        },
-        {
-            "id": "KJE5175-5177",
+            "id": "KJE5124-5240",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
-                "KJE4441-5520",
-                "KJE5124-5240",
-                "KJE5132-5202",
-                "KJE5149-5202"
+                "KJE4441-5520"
             ],
             "prefix": "KJE",
-            "start": 5175.0,
-            "stop": 5177.0,
-            "subject": "Free movement of capital.    Free movement"
-        },
-        {
-            "id": "KJE829-829.5",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 829.0,
-            "stop": 829.5,
-            "subject": "Labor law"
-        },
-        {
-            "id": "KJE824-825.5",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 824.0,
-            "stop": 825.5,
-            "subject": "Private law.    Civil law"
-        },
-        {
-            "id": "KJE6068-6160",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6068.0,
-            "stop": 6160.0,
-            "subject": "Public property.    Public restraint on private property"
-        },
-        {
-            "id": "KJE2636-2777",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 2636.0,
-            "stop": 2777.0,
-            "subject": "Intellectual and industrial property"
-        },
-        {
-            "id": "KJE6433-6434",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6411-6554",
-                "KJE6428-6537"
-            ],
-            "prefix": "KJE",
-            "start": 6433.0,
-            "stop": 6434.0,
-            "subject": "Investments"
-        },
-        {
-            "id": "KJE7971-8643",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 7971.0,
-            "stop": 8643.0,
-            "subject": "Criminal law"
-        },
-        {
-            "id": "KJE5977-6063",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 5977.0,
-            "stop": 6063.0,
-            "subject": "Police and public safety"
-        },
-        {
-            "id": "KJE5602-5793",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 5602.0,
-            "stop": 5793.0,
-            "subject": "Administrative law and process"
-        },
-        {
-            "id": "KJE2851-3199",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 2851.0,
-            "stop": 3199.0,
-            "subject": "Labor law"
-        },
-        {
-            "id": "KJE7520",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 7520.0,
-            "stop": 7520.0,
-            "subject": "Community measures in time of war, emergency, or"
-        },
-        {
-            "id": "KJE6428-6537",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6411-6554"
-            ],
-            "prefix": "KJE",
-            "start": 6428.0,
-            "stop": 6537.0,
-            "subject": "Government control and policy"
-        },
-        {
-            "id": "KJE3281-3418",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE3271-3448"
-            ],
-            "prefix": "KJE",
-            "start": 3281.0,
-            "stop": 3418.0,
-            "subject": "Social insurance.    Social security"
-        },
-        {
-            "id": "KJE7032-7045",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 7032.0,
-            "stop": 7045.0,
-            "subject": "Professions"
-        },
-        {
-            "id": "KJE6903",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6868-6939"
-            ],
-            "prefix": "KJE",
-            "start": 6903.0,
-            "stop": 6903.0,
-            "subject": "Railroads"
-        },
-        {
-            "id": "KJE830",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 830.0,
-            "stop": 830.0,
-            "subject": "Arbitration tribunals.    Procedures"
-        },
-        {
-            "id": "KJE500-549",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897"
-            ],
-            "prefix": "KJE",
-            "start": 500.0,
-            "stop": 549.0,
-            "subject": "Benelux Economic Union"
-        },
-        {
-            "id": "KJE6946-7010",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6946.0,
-            "stop": 7010.0,
-            "subject": "Communication.    Mass media.    Information"
-        },
-        {
-            "id": "KJE5089-5092",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520",
-                "KJE5075-5094"
-            ],
-            "prefix": "KJE",
-            "start": 5089.0,
-            "stop": 5092.0,
-            "subject": "Accession of new member states.    Adhesion"
+            "start": 5124.0,
+            "stop": 5240.0,
+            "subject": "Individual and Communities"
         },
         {
             "id": "KJE5078-5086",
@@ -51472,53 +51565,84 @@
             "subject": "Sovereignty.    Jurisdiction and concurring"
         },
         {
-            "id": "KJE5124",
+            "id": "KJE3431-3448",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
-                "KJE4441-5520",
-                "KJE5124-5240"
+                "KJE3271-3448"
             ],
             "prefix": "KJE",
-            "start": 5124.0,
-            "stop": 5124.0,
-            "subject": "Nationality and citizenship"
+            "start": 3431.0,
+            "stop": 3448.0,
+            "subject": "Social services.    Public welfare"
         },
         {
-            "id": "KJE5272-5291",
+            "id": "KJE6242-6253",
             "parents": [
                 "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520"
+                "KJE901-9570"
             ],
             "prefix": "KJE",
-            "start": 5272.0,
-            "stop": 5291.0,
-            "subject": "Election law"
+            "start": 6242.0,
+            "stop": 6253.0,
+            "subject": "Environmental law"
         },
         {
-            "id": "KJE6695",
+            "id": "KJE824-825.5",
             "parents": [
                 "KJE5-9570",
-                "KJE901-9570",
-                "KJE6569-6830"
+                "KJE10-897",
+                "KJE801-897"
             ],
             "prefix": "KJE",
-            "start": 6695.0,
-            "stop": 6695.0,
-            "subject": "Fisheries"
+            "start": 824.0,
+            "stop": 825.5,
+            "subject": "Private law.    Civil law"
         },
         {
-            "id": "KJE6976-6995",
+            "id": "KJE7520",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 7520.0,
+            "stop": 7520.0,
+            "subject": "Community measures in time of war, emergency, or"
+        },
+        {
+            "id": "KJE6927-6939",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
-                "KJE6946-7010"
+                "KJE6868-6939"
             ],
             "prefix": "KJE",
-            "start": 6976.0,
-            "stop": 6995.0,
-            "subject": "Radio and television communication"
+            "start": 6927.0,
+            "stop": 6939.0,
+            "subject": "Water transportation.    Coastwise and inland"
+        },
+        {
+            "id": "KJE6946-7010",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 6946.0,
+            "stop": 7010.0,
+            "subject": "Communication.    Mass media.    Information"
+        },
+        {
+            "id": "KJE6206-6237",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 6206.0,
+            "stop": 6237.0,
+            "subject": "Medical legislation"
         },
         {
             "id": "KJE5106",
@@ -51534,43 +51658,19 @@
             "subject": "Treatymaking power"
         },
         {
-            "id": "KJE969-974",
+            "id": "KJE6871-6900",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
-                "KJE960-974"
+                "KJE6868-6939"
             ],
             "prefix": "KJE",
-            "start": 969.0,
-            "stop": 974.0,
-            "subject": "Community law and municipal law"
+            "start": 6871.0,
+            "stop": 6900.0,
+            "subject": "Road traffic.    Traffic regulations and enforcement"
         },
         {
-            "id": "KJE850-853",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 850.0,
-            "stop": 853.0,
-            "subject": "Environmental law"
-        },
-        {
-            "id": "KJE827-828.5",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 827.0,
-            "stop": 828.5,
-            "subject": "Intellectual and industrial property"
-        },
-        {
-            "id": "KJE874-887.7",
+            "id": "KJE857-859",
             "parents": [
                 "KJE5-9570",
                 "KJE10-897",
@@ -51578,117 +51678,20 @@
                 "KJE856-887.7"
             ],
             "prefix": "KJE",
-            "start": 874.0,
-            "stop": 887.7,
-            "subject": "Particular industries or sectors"
+            "start": 857.0,
+            "stop": 859.0,
+            "subject": "Central planning.    Plan coordination"
         },
         {
-            "id": "KJE2432-2635",
+            "id": "KJE500-549",
             "parents": [
                 "KJE5-9570",
-                "KJE901-9570",
-                "KJE2041-2635"
+                "KJE10-897"
             ],
             "prefix": "KJE",
-            "start": 2432.0,
-            "stop": 2635.0,
-            "subject": "Business associations"
-        },
-        {
-            "id": "KJE5113",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE4441-5520",
-                "KJE5105-5113"
-            ],
-            "prefix": "KJE",
-            "start": 5113.0,
-            "stop": 5113.0,
-            "subject": "Relations with state-trading nations"
-        },
-        {
-            "id": "KJE3195-3199",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE2851-3199"
-            ],
-            "prefix": "KJE",
-            "start": 3195.0,
-            "stop": 3199.0,
-            "subject": "Labor supply.    Manpower policy"
-        },
-        {
-            "id": "KJE6868-6939",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6868.0,
-            "stop": 6939.0,
-            "subject": "Transportation.    Common transportation policy"
-        },
-        {
-            "id": "KJE7059-7062",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE7050-7475"
-            ],
-            "prefix": "KJE",
-            "start": 7059.0,
-            "stop": 7062.0,
-            "subject": "Foreign exchange policy"
-        },
-        {
-            "id": "KJE864-865",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897",
-                "KJE856-887.7"
-            ],
-            "prefix": "KJE",
-            "start": 864.0,
-            "stop": 865.0,
-            "subject": "Prices and price control"
-        },
-        {
-            "id": "KJE6206-6237",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6206.0,
-            "stop": 6237.0,
-            "subject": "Medical legislation"
-        },
-        {
-            "id": "KJE6345-6352",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6257-6405"
-            ],
-            "prefix": "KJE",
-            "start": 6345.0,
-            "stop": 6352.0,
-            "subject": "Science and the arts.    Research"
-        },
-        {
-            "id": "KJE6799-6825",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6569-6830"
-            ],
-            "prefix": "KJE",
-            "start": 6799.0,
-            "stop": 6825.0,
-            "subject": "Domestic trade.    Wholesale and retail trade"
+            "start": 500.0,
+            "stop": 549.0,
+            "subject": "Benelux Economic Union"
         },
         {
             "id": "KJE6920",
@@ -51703,43 +51706,6 @@
             "subject": "Air transport"
         },
         {
-            "id": "KJE846-847.5",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 846.0,
-            "stop": 847.5,
-            "subject": "Socialist public property.    Public restraint on private"
-        },
-        {
-            "id": "KJE6950-6970.5",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6946-7010"
-            ],
-            "prefix": "KJE",
-            "start": 6950.0,
-            "stop": 6970.5,
-            "subject": "Postal services.    Telecommunication.    Data"
-        },
-        {
-            "id": "KJE867-869",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897",
-                "KJE856-887.7"
-            ],
-            "prefix": "KJE",
-            "start": 867.0,
-            "stop": 869.0,
-            "subject": "Government business enterprises"
-        },
-        {
             "id": "KJE6554",
             "parents": [
                 "KJE5-9570",
@@ -51750,206 +51716,6 @@
             "start": 6554.0,
             "stop": 6554.0,
             "subject": "Standards.    Norms.    Quality control"
-        },
-        {
-            "id": "KJE6791-6795",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6569-6830"
-            ],
-            "prefix": "KJE",
-            "start": 6791.0,
-            "stop": 6795.0,
-            "subject": "External trade"
-        },
-        {
-            "id": "KJE6172-6202",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6172.0,
-            "stop": 6202.0,
-            "subject": "Public health"
-        },
-        {
-            "id": "KJE848-849",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 848.0,
-            "stop": 849.0,
-            "subject": "Medical legislation"
-        },
-        {
-            "id": "KJE6698-6702",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6569-6830"
-            ],
-            "prefix": "KJE",
-            "start": 6698.0,
-            "stop": 6702.0,
-            "subject": "Energy industry.    Energy policy"
-        },
-        {
-            "id": "KJE2950-2958",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE2851-3199"
-            ],
-            "prefix": "KJE",
-            "start": 2950.0,
-            "stop": 2958.0,
-            "subject": "Wages"
-        },
-        {
-            "id": "KJE6257-6405",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 6257.0,
-            "stop": 6405.0,
-            "subject": "Cultural affairs"
-        },
-        {
-            "id": "KJE893-897",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 893.0,
-            "stop": 897.0,
-            "subject": "Finance.    Money.    Customs.    Tariff"
-        },
-        {
-            "id": "KJE6436-6439",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6411-6554",
-                "KJE6428-6537"
-            ],
-            "prefix": "KJE",
-            "start": 6436.0,
-            "stop": 6439.0,
-            "subject": "Economic assistance within the Community"
-        },
-        {
-            "id": "KJE100-149",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897"
-            ],
-            "prefix": "KJE",
-            "start": 100.0,
-            "stop": 149.0,
-            "subject": "Council of Europe"
-        },
-        {
-            "id": "KJE6405",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6257-6405"
-            ],
-            "prefix": "KJE",
-            "start": 6405.0,
-            "stop": 6405.0,
-            "subject": "Historic buildings and monuments"
-        },
-        {
-            "id": "KJE7098-7475",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE7050-7475"
-            ],
-            "prefix": "KJE",
-            "start": 7098.0,
-            "stop": 7475.0,
-            "subject": "Revenue.    Taxation.    Customs.    Tariff"
-        },
-        {
-            "id": "KJE7051-7053",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE7050-7475"
-            ],
-            "prefix": "KJE",
-            "start": 7051.0,
-            "stop": 7053.0,
-            "subject": "European monetary system"
-        },
-        {
-            "id": "KJE7050-7475",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570"
-            ],
-            "prefix": "KJE",
-            "start": 7050.0,
-            "stop": 7475.0,
-            "subject": "Financial provisions"
-        },
-        {
-            "id": "KJE833-838.8",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897",
-                "KJE801-897"
-            ],
-            "prefix": "KJE",
-            "start": 833.0,
-            "stop": 838.8,
-            "subject": "Organization law.    Constitution of the Council of"
-        },
-        {
-            "id": "KJE6927-6939",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6868-6939"
-            ],
-            "prefix": "KJE",
-            "start": 6927.0,
-            "stop": 6939.0,
-            "subject": "Water transportation.    Coastwise and inland"
-        },
-        {
-            "id": "KJE50-99",
-            "parents": [
-                "KJE5-9570",
-                "KJE10-897"
-            ],
-            "prefix": "KJE",
-            "start": 50.0,
-            "stop": 99.0,
-            "subject": "Western European Union"
-        },
-        {
-            "id": "KJE7010",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6946-7010"
-            ],
-            "prefix": "KJE",
-            "start": 7010.0,
-            "stop": 7010.0,
-            "subject": "Information services.    Databases"
         },
         {
             "id": "KJE5142-5146",
@@ -51966,16 +51732,332 @@
             "subject": "Equality before the law"
         },
         {
-            "id": "KJE5305-5520",
+            "id": "KJE6257-6405",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 6257.0,
+            "stop": 6405.0,
+            "subject": "Cultural affairs"
+        },
+        {
+            "id": "KJE915-924",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 915.0,
+            "stop": 924.0,
+            "subject": "Official acts"
+        },
+        {
+            "id": "KJE350-399",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897"
+            ],
+            "prefix": "KJE",
+            "start": 350.0,
+            "stop": 399.0,
+            "subject": "European Fund"
+        },
+        {
+            "id": "KJE10-897",
+            "parents": [
+                "KJE5-9570"
+            ],
+            "prefix": "KJE",
+            "start": 10.0,
+            "stop": 897.0,
+            "subject": "Regional organization other than the European"
+        },
+        {
+            "id": "KJE2950-2958",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE2851-3199"
+            ],
+            "prefix": "KJE",
+            "start": 2950.0,
+            "stop": 2958.0,
+            "subject": "Wages"
+        },
+        {
+            "id": "KJE822-822.7",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 822.0,
+            "stop": 822.7,
+            "subject": "Theory and methodology of socialist economic law"
+        },
+        {
+            "id": "KJE801-897",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897"
+            ],
+            "prefix": "KJE",
+            "start": 801.0,
+            "stop": 897.0,
+            "subject": "Council for Mutual Economic Assistance (COMECON)"
+        },
+        {
+            "id": "KJE848-849",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897"
+            ],
+            "prefix": "KJE",
+            "start": 848.0,
+            "stop": 849.0,
+            "subject": "Medical legislation"
+        },
+        {
+            "id": "KJE6601-6651",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6569-6830"
+            ],
+            "prefix": "KJE",
+            "start": 6601.0,
+            "stop": 6651.0,
+            "subject": "Agriculture.    Agricultural policy"
+        },
+        {
+            "id": "KJE4441-5520",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 4441.0,
+            "stop": 5520.0,
+            "subject": "Organization law.    Constitution of the European"
+        },
+        {
+            "id": "KJE100-149",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897"
+            ],
+            "prefix": "KJE",
+            "start": 100.0,
+            "stop": 149.0,
+            "subject": "Council of Europe"
+        },
+        {
+            "id": "KJE6247-6253",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6242-6253"
+            ],
+            "prefix": "KJE",
+            "start": 6247.0,
+            "stop": 6253.0,
+            "subject": "Environmental pollution"
+        },
+        {
+            "id": "KJE300-349",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897"
+            ],
+            "prefix": "KJE",
+            "start": 300.0,
+            "stop": 349.0,
+            "subject": "European Payment Union"
+        },
+        {
+            "id": "KJE887.5-887.7",
+            "parents": [
+                "KJE5-9570",
+                "KJE10-897",
+                "KJE801-897",
+                "KJE856-887.7",
+                "KJE874-887.7"
+            ],
+            "prefix": "KJE",
+            "start": 887.5,
+            "stop": 887.7,
+            "subject": "Domestic trade.    Intra-COMECON trade"
+        },
+        {
+            "id": "KJE3271-3448",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 3271.0,
+            "stop": 3448.0,
+            "subject": "Social legislation"
+        },
+        {
+            "id": "KJE7032-7045",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 7032.0,
+            "stop": 7045.0,
+            "subject": "Professions"
+        },
+        {
+            "id": "KJE6695",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6569-6830"
+            ],
+            "prefix": "KJE",
+            "start": 6695.0,
+            "stop": 6695.0,
+            "subject": "Fisheries"
+        },
+        {
+            "id": "KJE6436-6439",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6411-6554",
+                "KJE6428-6537"
+            ],
+            "prefix": "KJE",
+            "start": 6436.0,
+            "stop": 6439.0,
+            "subject": "Economic assistance within the Community"
+        },
+        {
+            "id": "KJE6266-6321",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6257-6405"
+            ],
+            "prefix": "KJE",
+            "start": 6266.0,
+            "stop": 6321.0,
+            "subject": "Education"
+        },
+        {
+            "id": "KJE6428-6537",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6411-6554"
+            ],
+            "prefix": "KJE",
+            "start": 6428.0,
+            "stop": 6537.0,
+            "subject": "Government control and policy"
+        },
+        {
+            "id": "KJE6172-6202",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570"
+            ],
+            "prefix": "KJE",
+            "start": 6172.0,
+            "stop": 6202.0,
+            "subject": "Public health"
+        },
+        {
+            "id": "KJE6698-6702",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6569-6830"
+            ],
+            "prefix": "KJE",
+            "start": 6698.0,
+            "stop": 6702.0,
+            "subject": "Energy industry.    Energy policy"
+        },
+        {
+            "id": "KJE5113",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE4441-5520",
+                "KJE5105-5113"
+            ],
+            "prefix": "KJE",
+            "start": 5113.0,
+            "stop": 5113.0,
+            "subject": "Relations with state-trading nations"
+        },
+        {
+            "id": "KJE6950-6970.5",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6946-7010"
+            ],
+            "prefix": "KJE",
+            "start": 6950.0,
+            "stop": 6970.5,
+            "subject": "Postal services.    Telecommunication.    Data"
+        },
+        {
+            "id": "KJE6577-6578.5",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6569-6830"
+            ],
+            "prefix": "KJE",
+            "start": 6577.0,
+            "stop": 6578.5,
+            "subject": "Consumer protection"
+        },
+        {
+            "id": "KJE7051-7053",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE7050-7475"
+            ],
+            "prefix": "KJE",
+            "start": 7051.0,
+            "stop": 7053.0,
+            "subject": "European monetary system"
+        },
+        {
+            "id": "KJE5057-5062",
             "parents": [
                 "KJE5-9570",
                 "KJE901-9570",
                 "KJE4441-5520"
             ],
             "prefix": "KJE",
-            "start": 5305.0,
-            "stop": 5520.0,
-            "subject": "Community institutions and organs"
+            "start": 5057.0,
+            "stop": 5062.0,
+            "subject": "Sources and relationships of the law"
+        },
+        {
+            "id": "KJE6345-6352",
+            "parents": [
+                "KJE5-9570",
+                "KJE901-9570",
+                "KJE6257-6405"
+            ],
+            "prefix": "KJE",
+            "start": 6345.0,
+            "stop": 6352.0,
+            "subject": "Science and the arts.    Research"
         },
         {
             "id": "KJE6710-6729",
@@ -51988,18 +52070,116 @@
             "start": 6710.0,
             "stop": 6729.0,
             "subject": "Mining and quarrying"
-        },
+        }
+    ],
+    "KJG": [
         {
-            "id": "KJE6245",
-            "parents": [
-                "KJE5-9570",
-                "KJE901-9570",
-                "KJE6242-6253"
-            ],
-            "prefix": "KJE",
-            "start": 6245.0,
-            "stop": 6245.0,
-            "subject": "Environmental planning and protection."
+            "id": "KJG",
+            "parents": [],
+            "prefix": "KJG",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Albania"
+        }
+    ],
+    "KJH": [
+        {
+            "id": "KJH",
+            "parents": [],
+            "prefix": "KJH",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Andorra"
+        }
+    ],
+    "KJJ": [
+        {
+            "id": "KJJ",
+            "parents": [],
+            "prefix": "KJJ",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Austria"
+        }
+    ],
+    "KJK": [
+        {
+            "id": "KJK",
+            "parents": [],
+            "prefix": "KJK",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Bosnia and Hercegovina"
+        }
+    ],
+    "KJM": [
+        {
+            "id": "KJM",
+            "parents": [],
+            "prefix": "KJM",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Croatia"
+        }
+    ],
+    "KJN": [
+        {
+            "id": "KJN",
+            "parents": [],
+            "prefix": "KJN",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Cyprus"
+        }
+    ],
+    "KJP": [
+        {
+            "id": "KJP",
+            "parents": [],
+            "prefix": "KJP",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Czech Republic (1993-        )"
+        }
+    ],
+    "KJQ": [
+        {
+            "id": "KJQ",
+            "parents": [],
+            "prefix": "KJQ",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Slovakia (1993-        )"
+        }
+    ],
+    "KJR": [
+        {
+            "id": "KJR",
+            "parents": [],
+            "prefix": "KJR",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Denmark"
+        }
+    ],
+    "KJS": [
+        {
+            "id": "KJS",
+            "parents": [],
+            "prefix": "KJS",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Estonia"
+        }
+    ],
+    "KJT": [
+        {
+            "id": "KJT",
+            "parents": [],
+            "prefix": "KJT",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Finland"
         }
     ],
     "KJV": [
@@ -58345,6 +58525,206 @@
             "subject": "Law of East Germany"
         }
     ],
+    "KKE": [
+        {
+            "id": "KKE",
+            "parents": [],
+            "prefix": "KKE",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Greece"
+        }
+    ],
+    "KKF": [
+        {
+            "id": "KKF",
+            "parents": [],
+            "prefix": "KKF",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Hungary"
+        }
+    ],
+    "KKG": [
+        {
+            "id": "KKG",
+            "parents": [],
+            "prefix": "KKG",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Iceland"
+        }
+    ],
+    "KKH": [
+        {
+            "id": "KKH",
+            "parents": [],
+            "prefix": "KKH",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Kosovo"
+        }
+    ],
+    "KKI": [
+        {
+            "id": "KKI",
+            "parents": [],
+            "prefix": "KKI",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Latvia"
+        }
+    ],
+    "KKJ": [
+        {
+            "id": "KKJ",
+            "parents": [],
+            "prefix": "KKJ",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Lithuania"
+        }
+    ],
+    "KKK": [
+        {
+            "id": "KKK",
+            "parents": [],
+            "prefix": "KKK",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Malta"
+        }
+    ],
+    "KKL": [
+        {
+            "id": "KKL",
+            "parents": [],
+            "prefix": "KKL",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Montenegro"
+        }
+    ],
+    "KKM": [
+        {
+            "id": "KKM",
+            "parents": [],
+            "prefix": "KKM",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Netherlands"
+        }
+    ],
+    "KKN": [
+        {
+            "id": "KKN",
+            "parents": [],
+            "prefix": "KKN",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Norway"
+        }
+    ],
+    "KKP": [
+        {
+            "id": "KKP",
+            "parents": [],
+            "prefix": "KKP",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Poland"
+        }
+    ],
+    "KKQ": [
+        {
+            "id": "KKQ",
+            "parents": [],
+            "prefix": "KKQ",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Portugal"
+        }
+    ],
+    "KKR": [
+        {
+            "id": "KKR",
+            "parents": [],
+            "prefix": "KKR",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Romania"
+        }
+    ],
+    "KKS": [
+        {
+            "id": "KKS",
+            "parents": [],
+            "prefix": "KKS",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Slovenia"
+        }
+    ],
+    "KKT": [
+        {
+            "id": "KKT",
+            "parents": [],
+            "prefix": "KKT",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Spain"
+        }
+    ],
+    "KKV": [
+        {
+            "id": "KKV",
+            "parents": [],
+            "prefix": "KKV",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Sweden"
+        }
+    ],
+    "KKW": [
+        {
+            "id": "KKW",
+            "parents": [],
+            "prefix": "KKW",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Switzerland"
+        }
+    ],
+    "KKX": [
+        {
+            "id": "KKX",
+            "parents": [],
+            "prefix": "KKX",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Turkey"
+        }
+    ],
+    "KKY": [
+        {
+            "id": "KKY",
+            "parents": [],
+            "prefix": "KKY",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Ukraine"
+        }
+    ],
+    "KKZ": [
+        {
+            "id": "KKZ",
+            "parents": [],
+            "prefix": "KKZ",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Yugoslavia"
+        }
+    ],
     "KL": [
         {
             "id": "KL1001-1299",
@@ -58991,15 +59371,27 @@
     "KNN": [
         {
             "id": "KNN9-80",
-            "parents": [],
+            "parents": [
+                "KNN"
+            ],
             "prefix": "KNN",
             "start": 9.0,
             "stop": 80.0,
             "subject": "Sources"
         },
         {
-            "id": "KNN5101-7599",
+            "id": "KNN",
             "parents": [],
+            "prefix": "KNN",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of China"
+        },
+        {
+            "id": "KNN5101-7599",
+            "parents": [
+                "KNN"
+            ],
             "prefix": "KNN",
             "start": 5101.0,
             "stop": 7599.0,
@@ -59007,7 +59399,9 @@
         },
         {
             "id": "KNN94-96",
-            "parents": [],
+            "parents": [
+                "KNN"
+            ],
             "prefix": "KNN",
             "start": 94.0,
             "stop": 96.0,
@@ -59015,7 +59409,9 @@
         },
         {
             "id": "KNN88-93",
-            "parents": [],
+            "parents": [
+                "KNN"
+            ],
             "prefix": "KNN",
             "start": 88.0,
             "stop": 93.0,
@@ -59023,7 +59419,9 @@
         },
         {
             "id": "KNN132-460",
-            "parents": [],
+            "parents": [
+                "KNN"
+            ],
             "prefix": "KNN",
             "start": 132.0,
             "stop": 460.0,
@@ -74578,6 +74976,7 @@
         {
             "id": "PR6000-6049",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74588,6 +74987,7 @@
         {
             "id": "PR1170-1228",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74599,6 +74999,7 @@
         {
             "id": "PR57-78",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74609,6 +75010,7 @@
         {
             "id": "PR441-449",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488",
                 "PR401-488"
@@ -74621,6 +75023,7 @@
         {
             "id": "PR171-236",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488"
             ],
@@ -74632,6 +75035,7 @@
         {
             "id": "PR931-938",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74642,6 +75046,7 @@
         {
             "id": "PR1098-1369",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74652,6 +75057,7 @@
         {
             "id": "PR901-907.2",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74662,6 +75068,7 @@
         {
             "id": "PR911-918",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74672,6 +75079,7 @@
         {
             "id": "PR251-369",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488"
             ],
@@ -74683,6 +75091,7 @@
         {
             "id": "PR1281-1309",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74694,6 +75103,7 @@
         {
             "id": "PR481-488",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488",
                 "PR401-488"
@@ -74706,6 +75116,7 @@
         {
             "id": "PR111-116",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74716,6 +75127,7 @@
         {
             "id": "PR1803-2165",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74726,6 +75138,7 @@
         {
             "id": "PR161-488",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74736,6 +75149,7 @@
         {
             "id": "PR1490-1799",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74746,6 +75160,7 @@
         {
             "id": "PR1241-1273",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74757,6 +75172,7 @@
         {
             "id": "PR8309-9680",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74767,6 +75183,7 @@
         {
             "id": "PR471-479",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488",
                 "PR401-488"
@@ -74777,8 +75194,17 @@
             "subject": "20th century"
         },
         {
+            "id": "PR",
+            "parents": [],
+            "prefix": "PR",
+            "start": 0,
+            "stop": 10000,
+            "subject": "English"
+        },
+        {
             "id": "PR6100-6126",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74789,6 +75215,7 @@
         {
             "id": "PR2199-3195",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74799,6 +75226,7 @@
         {
             "id": "PR401-488",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488"
             ],
@@ -74810,6 +75238,7 @@
         {
             "id": "PR951-981",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74820,6 +75249,7 @@
         {
             "id": "PR521-614",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR500-614"
             ],
@@ -74831,6 +75261,7 @@
         {
             "id": "PR767-818",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR750-890"
             ],
@@ -74842,6 +75273,7 @@
         {
             "id": "PR1-56",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74852,6 +75284,7 @@
         {
             "id": "PR451-469",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488",
                 "PR401-488"
@@ -74864,6 +75297,7 @@
         {
             "id": "PR1119-1151",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74875,6 +75309,7 @@
         {
             "id": "PR1321-1329",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74886,6 +75321,7 @@
         {
             "id": "PR1330",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74897,6 +75333,7 @@
         {
             "id": "PR500-614",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74906,7 +75343,9 @@
         },
         {
             "id": "PR1-9680",
-            "parents": [],
+            "parents": [
+                "PR"
+            ],
             "prefix": "PR",
             "start": 1.0,
             "stop": 9680.0,
@@ -74915,6 +75354,7 @@
         {
             "id": "PR621-744",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74925,6 +75365,7 @@
         {
             "id": "PR750-890",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74935,6 +75376,7 @@
         {
             "id": "PR821-890",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR750-890"
             ],
@@ -74946,6 +75388,7 @@
         {
             "id": "PR421-429",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488",
                 "PR401-488"
@@ -74958,6 +75401,7 @@
         {
             "id": "PR1110",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74969,6 +75413,7 @@
         {
             "id": "PR1361-1369",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -74980,6 +75425,7 @@
         {
             "id": "PR908",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -74990,6 +75436,7 @@
         {
             "id": "PR125-138.5",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -75000,6 +75447,7 @@
         {
             "id": "PR3991-5990",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -75010,6 +75458,7 @@
         {
             "id": "PR431-439",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR161-488",
                 "PR401-488"
@@ -75022,6 +75471,7 @@
         {
             "id": "PR3291-3785",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -75032,6 +75482,7 @@
         {
             "id": "PR641-744",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR621-744"
             ],
@@ -75043,6 +75494,7 @@
         {
             "id": "PR1341-1349",
             "parents": [
+                "PR",
                 "PR1-9680",
                 "PR1098-1369"
             ],
@@ -75054,6 +75506,7 @@
         {
             "id": "PR921-928",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -75064,6 +75517,7 @@
         {
             "id": "PR6050-6076",
             "parents": [
+                "PR",
                 "PR1-9680"
             ],
             "prefix": "PR",
@@ -77960,6 +78414,16 @@
             "start": 450.0,
             "stop": 467.0,
             "subject": "Spectroscopy"
+        },
+        {
+            "id": "QC1-75",
+            "parents": [
+                "QC1-999"
+            ],
+            "prefix": "QC",
+            "start": 1.0,
+            "stop": 75.0,
+            "subject": "General"
         },
         {
             "id": "QC717.6-718.8",
