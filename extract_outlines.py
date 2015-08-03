@@ -193,7 +193,7 @@ class LCC(object):
 
 
 
-			if ((heading_pattern.match(text) or heading_pattern2.match(text))  and text != 'KFA-KFW'):
+			if ((heading_pattern.match(text) or heading_pattern2.match(text))  and text != 'KFA-KFW' and text != 'KEA-KEN'):
 
 				self.problematicClassmarks.append("Skipping " + text)
 				continue
@@ -304,6 +304,21 @@ class LCC(object):
 						self.all_classifications['KES'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : "KES", "start" : 0, "stop" : 10000, "subject" : "Law of Saskatchewan" }
 						self.all_classifications['KEY'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : "KEY", "start" : 0, "stop" : 10000, "subject" : "Law of Yukon" }
 
+
+					
+					elif text == 'KEA-KEN':
+
+
+						self.all_classifications['KEA'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEA', "start" : 0, "stop" : 10000, "subject" : 'Law of Alberta' }
+						self.all_classifications['KEB'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEB', "start" : 0, "stop" : 10000, "subject" : 'Law of British Columbia' }
+						self.all_classifications['KEM'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEM', "start" : 0, "stop" : 10000, "subject" : 'Law of Manitoba' }
+						self.all_classifications['KEN1-599'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEN', "start" : 1, "stop" : 599, "subject" : 'Law of New Brunswick' }
+						self.all_classifications['KEN1201-1799'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEN', "start" : 1201, "stop" : 1799, "subject" : 'Law of Newfoundland and Labrador' }
+						self.all_classifications['KEN5401-5999'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEN', "start" : 5401, "stop" : 5999, "subject" : 'Law of Northwest Territories' }
+						self.all_classifications['KEN7401-7999'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEN', "start" : 7401, "stop" : 7999, "subject" : 'Law of Nova Scotia' }
+						self.all_classifications['KEN8001-8599'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : 'KEN', "start" : 8001, "stop" : 8599, "subject" : 'Law of Nunavut' }
+
+							
 
 					elif text == 'KFA-KFW':
 

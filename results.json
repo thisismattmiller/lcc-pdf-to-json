@@ -43420,6 +43420,78 @@
             "subject": "Criminal law.  Criminal procedure"
         }
     ],
+    "KEA": [
+        {
+            "id": "KEA",
+            "parents": [],
+            "prefix": "KEA",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Alberta"
+        }
+    ],
+    "KEB": [
+        {
+            "id": "KEB",
+            "parents": [],
+            "prefix": "KEB",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of British Columbia"
+        }
+    ],
+    "KEM": [
+        {
+            "id": "KEM",
+            "parents": [],
+            "prefix": "KEM",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Manitoba"
+        }
+    ],
+    "KEN": [
+        {
+            "id": "KEN1-599",
+            "parents": [],
+            "prefix": "KEN",
+            "start": 1,
+            "stop": 599,
+            "subject": "Law of New Brunswick"
+        },
+        {
+            "id": "KEN7401-7999",
+            "parents": [],
+            "prefix": "KEN",
+            "start": 7401,
+            "stop": 7999,
+            "subject": "Law of Nova Scotia"
+        },
+        {
+            "id": "KEN8001-8599",
+            "parents": [],
+            "prefix": "KEN",
+            "start": 8001,
+            "stop": 8599,
+            "subject": "Law of Nunavut"
+        },
+        {
+            "id": "KEN5401-5999",
+            "parents": [],
+            "prefix": "KEN",
+            "start": 5401,
+            "stop": 5999,
+            "subject": "Law of Northwest Territories"
+        },
+        {
+            "id": "KEN1201-1799",
+            "parents": [],
+            "prefix": "KEN",
+            "start": 1201,
+            "stop": 1799,
+            "subject": "Law of Newfoundland and Labrador"
+        }
+    ],
     "KEO": [
         {
             "id": "KEO713-721",
@@ -43963,6 +44035,17 @@
             "subject": "Public property.  Public restraints on private property"
         },
         {
+            "id": "KEQ980-988",
+            "parents": [
+                "KEQ1-1199.5",
+                "KEQ798-988"
+            ],
+            "prefix": "KEQ",
+            "start": 980.0,
+            "stop": 988.0,
+            "subject": "The professions"
+        },
+        {
             "id": "KEQ837-840.5",
             "parents": [
                 "KEQ1-1199.5",
@@ -44081,25 +44164,14 @@
             "subject": "Medical legislation"
         },
         {
-            "id": "KEQ980-988",
-            "parents": [
-                "KEQ1-1199.5",
-                "KEQ798-988"
-            ],
-            "prefix": "KEQ",
-            "start": 980.0,
-            "stop": 988.0,
-            "subject": "The professions"
-        },
-        {
-            "id": "KEQ492-500.7",
+            "id": "KEQ149",
             "parents": [
                 "KEQ1-1199.5"
             ],
             "prefix": "KEQ",
-            "start": 492.0,
-            "stop": 500.7,
-            "subject": "Associations"
+            "start": 149.0,
+            "stop": 149.0,
+            "subject": "Law institutes, societies, etc."
         },
         {
             "id": "KEQ968-975",
@@ -44561,16 +44633,6 @@
             "subject": "Community legal services.  Legal aid"
         },
         {
-            "id": "KEQ149",
-            "parents": [
-                "KEQ1-1199.5"
-            ],
-            "prefix": "KEQ",
-            "start": 149.0,
-            "stop": 149.0,
-            "subject": "Law institutes, societies, etc."
-        },
-        {
             "id": "KEQ473",
             "parents": [
                 "KEQ1-1199.5"
@@ -44655,6 +44717,16 @@
             "start": 237.0,
             "stop": 258.0,
             "subject": "Domestic relations.  Family law"
+        },
+        {
+            "id": "KEQ492-500.7",
+            "parents": [
+                "KEQ1-1199.5"
+            ],
+            "prefix": "KEQ",
+            "start": 492.0,
+            "stop": 500.7,
+            "subject": "Associations"
         }
     ],
     "KES": [
