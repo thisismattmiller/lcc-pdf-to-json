@@ -19,7 +19,7 @@ Each classmark has these properties:
 ```
 And are organized into objects based on prefix.
 
-The goal of this dataset is to make it easy to place a LCC number into a course classfication catagory byeond what is available at http://id.loc.gov/authorities/classification.html
+The goal of this dataset is to make it easy to place a LCC number into a coarse classfication catagory byeond what is available at http://id.loc.gov/authorities/classification.html
 
 ```
 results.json         - The dataset
