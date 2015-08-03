@@ -177,12 +177,20 @@ class LCC(object):
 			text = code.get_text().strip().replace('(','').replace(')','')
 
 			text = text.replace('PN1992.93-19 92.95','PN1992.93-1992.95')
+			if text == 'D545.9':
+				text = 'DT545.9'
+			if text == 'D274.5-6':
+				text = 'D274.5-274.6'
+
+
+
+
+
 
 
 			if (heading_pattern.match(text) or heading_pattern2.match(text)):
 
-				print "Skipping:", text
-				self.problematicClassmarks.append(text)
+				self.problematicClassmarks.append("Skipping " + text)
 				continue
 
 				#TODO fix the KL-KWX1 from KL-KWX schedule here
@@ -289,14 +297,19 @@ if __name__ == "__main__":
 		all_problems = []
 
 		for x in glob.glob("source/*.pdf"):
+
 			print x
-			print x
+
 			aLCC = LCC(x)
 
 
 			for prefix in aLCC.results:
 
-				all_results[prefix] = aLCC.results[prefix]
+
+				if prefix not in all_results:
+					all_results[prefix] = aLCC.results[prefix]
+				else:
+					print x,"wants to overwrite",prefix,"Not doing it."
 
 
 			all_problems = all_problems + aLCC.problems
