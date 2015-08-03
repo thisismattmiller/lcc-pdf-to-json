@@ -47593,6 +47593,196 @@
             "subject": "Jurisprudence and philosophy of American law"
         }
     ],
+    "KFA": [
+        {
+            "id": "KFA",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Alabama"
+        }
+    ],
+    "KFC": [
+        {
+            "id": "KFC",
+            "parents": [],
+            "prefix": "KFC",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of California"
+        }
+    ],
+    "KFD": [
+        {
+            "id": "KFD",
+            "parents": [],
+            "prefix": "KFD",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Delaware"
+        }
+    ],
+    "KFF": [
+        {
+            "id": "KFF",
+            "parents": [],
+            "prefix": "KFF",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Florida"
+        }
+    ],
+    "KFG": [
+        {
+            "id": "KFG",
+            "parents": [],
+            "prefix": "KFG",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Georgia"
+        }
+    ],
+    "KFH": [
+        {
+            "id": "KFH",
+            "parents": [],
+            "prefix": "KFH",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Hawaii"
+        }
+    ],
+    "KFI": [
+        {
+            "id": "KFI",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Idaho"
+        }
+    ],
+    "KFK": [
+        {
+            "id": "KFK",
+            "parents": [],
+            "prefix": "KFK",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Kansas"
+        }
+    ],
+    "KFL": [
+        {
+            "id": "KFL",
+            "parents": [],
+            "prefix": "KFL",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Louisiana"
+        }
+    ],
+    "KFM": [
+        {
+            "id": "KFM",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Maine"
+        }
+    ],
+    "KFN": [
+        {
+            "id": "KFN",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Nebraska"
+        }
+    ],
+    "KFO": [
+        {
+            "id": "KFO",
+            "parents": [],
+            "prefix": "KFO",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Ohio"
+        }
+    ],
+    "KFP": [
+        {
+            "id": "KFP",
+            "parents": [],
+            "prefix": "KFP",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Pennsylvania"
+        }
+    ],
+    "KFR": [
+        {
+            "id": "KFR",
+            "parents": [],
+            "prefix": "KFR",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Rhode Island"
+        }
+    ],
+    "KFS": [
+        {
+            "id": "KFS",
+            "parents": [],
+            "prefix": "KFS",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of South Carolina"
+        }
+    ],
+    "KFT": [
+        {
+            "id": "KFT",
+            "parents": [],
+            "prefix": "KFT",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Tennessee"
+        }
+    ],
+    "KFU": [
+        {
+            "id": "KFU",
+            "parents": [],
+            "prefix": "KFU",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Utah"
+        }
+    ],
+    "KFV": [
+        {
+            "id": "KFV",
+            "parents": [],
+            "prefix": "KFV",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Vermont"
+        }
+    ],
+    "KFW": [
+        {
+            "id": "KFW",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 0,
+            "stop": 10000,
+            "subject": "Law of Washington"
+        }
+    ],
     "KFX": [
         {
             "id": "KFX",
@@ -47600,7 +47790,7 @@
             "prefix": "KFX",
             "start": 0,
             "stop": 10000,
-            "subject": "Law of Laws of the cities"
+            "subject": "Laws of the cities"
         }
     ],
     "KFZ": [
@@ -47610,7 +47800,7 @@
             "prefix": "KFZ",
             "start": 0,
             "stop": 10000,
-            "subject": "Law of Laws of the territories.  Laws of the Confederate States of"
+            "subject": "Laws of the territories.  Laws of the Confederate States of"
         }
     ],
     "KG": [

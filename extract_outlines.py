@@ -193,7 +193,7 @@ class LCC(object):
 
 
 
-			if (heading_pattern.match(text) or heading_pattern2.match(text)):
+			if ((heading_pattern.match(text) or heading_pattern2.match(text))  and text != 'KFA-KFW'):
 
 				self.problematicClassmarks.append("Skipping " + text)
 				continue
@@ -284,10 +284,9 @@ class LCC(object):
 
 					if only_three_prefix.match(text) and len(text) == 3:
 
-
 						if text[0] == 'K':
 
-							if (this_desc.find('law of') == -1):
+							if (this_desc.find('law of') == -1 and this_desc.find('Laws of') == -1):
 								this_desc = "Law of " + this_desc
 
 
@@ -304,6 +303,38 @@ class LCC(object):
 
 						self.all_classifications['KES'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : "KES", "start" : 0, "stop" : 10000, "subject" : "Law of Saskatchewan" }
 						self.all_classifications['KEY'] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : "KEY", "start" : 0, "stop" : 10000, "subject" : "Law of Yukon" }
+
+
+					elif text == 'KFA-KFW':
+
+
+						#uggh....
+						states = {
+							"KFA" : "Law of Alabama",
+							"KFC" : "Law of California",
+							"KFD" : "Law of Delaware",
+							"KFF" : "Law of Florida",
+							"KFG" : "Law of Georgia",
+							"KFH" : "Law of Hawaii",
+							"KFI" : "Law of Idaho",
+							"KFK" : "Law of Kansas",
+							"KFL" : "Law of Louisiana",
+							"KFM" : "Law of Maine",
+							"KFN" : "Law of Nebraska",
+							"KFO" : "Law of Ohio",
+							"KFP" : "Law of Pennsylvania",
+							"KFR" : "Law of Rhode Island",
+							"KFS" : "Law of South Carolina",
+							"KFT" : "Law of Tennessee",
+							"KFU" : "Law of Utah",
+							"KFV" : "Law of Vermont",
+							"KFW" : "Law of Washington"
+						}
+
+						for s in states:
+
+							self.all_classifications[s] = { "parents" : [], "parentsStart" : [], "parentsIndex" : {}, "prefix" : s, "start" : 0, "stop" : 10000, "subject" : states[s] }
+
 
 
 					
